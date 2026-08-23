@@ -3,7 +3,8 @@
 Knowledge-base digests for [Conflu](https://github.com/xudesheng/conflu)'s
 external KB. One directory per family; each is a complete external KB
 directory (`kb.toml` + Markdown) as defined by Conflu's external KB contract,
-produced under the convention in Conflu's `docs/core/kb-digest.md`.
+produced under the convention in Conflu's `docs/core/kb-digest.md` by the
+recipes kept in the private `conflu-digest` repository.
 
 ## Use
 
