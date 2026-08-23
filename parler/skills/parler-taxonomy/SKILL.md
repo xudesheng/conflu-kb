@@ -11,8 +11,9 @@ does not know what a Line is", "build asset-types.json for project X".
 
 ## Preflight (always)
 
-1. Read the installed versions: `conflu twx extensions list` → `packageVersion`
-   of `parler-agent` and `parler-ui-widget`. Note them once.
+1. Read the installed versions: `conflu twx extensions list` → two separate rows,
+   `parler-agent` and `parler-ui-widget`, each with its own `packageVersion`.
+   Note both once.
 2. Find the AgentThing and its repository: `twx.service.invoke`
    `GetAgentRuntimeSnapshot` → `configurationRepository.thingName`. If there is
    more than one AgentThing, ask which.

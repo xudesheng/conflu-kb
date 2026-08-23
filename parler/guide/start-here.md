@@ -2,10 +2,12 @@
 
 ## What Parler is
 
-Parler is a ThingWorx extension: `parler-agent` (a Java extension providing
-the `AgentThing` template, which runs an LLM-backed agent loop inside
-ThingWorx) and `parler-ui-widget` (the Mashup chat/visualization widget,
-AlwaysOn WebSocket). The agent answers a Mashup user's questions about their
+Parler is delivered as **two independent ThingWorx extensions**, installed
+and versioned separately: `parler-agent` (a Java extension providing the
+`AgentThing` template, which runs an LLM-backed agent loop inside ThingWorx)
+and `parler-ui-widget` (the Mashup chat/visualization widget, AlwaysOn
+WebSocket). A system may have either one at a version the other does not
+expect; always read both. The agent answers a Mashup user's questions about their
 data by selecting tools, gathering platform evidence, and rendering results.
 Two of its design principles matter to you as a configurer: **trust by
 construction** (chart data never passes through the LLM) and
@@ -39,7 +41,7 @@ state-dependent, look at the target with Conflu:
 
 | Question | Conflu call |
 |---|---|
-| Which Parler is installed? | `conflu twx extensions list` → `packageVersion` of `parler-agent` and `parler-ui-widget` |
+| Which Parler is installed? | `conflu twx extensions list` → **two separate rows**, `parler-agent` and `parler-ui-widget`, each with its own `packageVersion`; note both |
 | Which ThingWorx? | `twx.env.describe` |
 | Which repository does the AgentThing use, what did it load, does it drift? | `twx.service.invoke` on `Things/<AgentThing>/Services/GetAgentRuntimeSnapshot` (`configurationRepository.thingName`, loaded file hashes, drift checks) |
 | AgentSettings (document knowledge etc.)? | `twx.service.invoke` on `GetConfigurationTable` with `{"tableName":"AgentSettings"}` |

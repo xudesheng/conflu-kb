@@ -10,7 +10,9 @@ Use when a developer wants their Parler agent to call their own services —
 
 ## Preflight (always)
 
-1. Installed versions: `conflu twx extensions list` (note once).
+1. Installed versions: `conflu twx extensions list` → two separate rows
+   (`parler-agent`, `parler-ui-widget`), each with its own `packageVersion`;
+   note both once.
 2. AgentThing and repository: `GetAgentRuntimeSnapshot` via `twx.service.invoke`.
 3. Current `tools/extended_tools.json` and `policies/invoke_service.json`
    via `twx.filerepo.download` (either may not exist yet).

@@ -3,9 +3,12 @@ _Digested 2026-08-23 from parler@ea41f8c5 (parler-agent 0.1.210, parler-ui-widge
 # Parler Kit — KB digest
 
 Advisory knowledge for a coding agent that configures, deploys, diagnoses,
-and tests **Parler**, the ThingWorx extension that embeds an AI data-insight
-agent (`AgentThing`). Start with `guide/start-here.md`. Anything
-version-sensitive is checked against the live system, not trusted from here.
+and tests **Parler**, which is delivered as **two independent ThingWorx
+extensions** — `parler-agent` (the `AgentThing` runtime) and
+`parler-ui-widget` (the Mashup widget) — that together embed an AI
+data-insight agent. Each is installed and versioned on its own; read both.
+Start with `guide/start-here.md`. Anything version-sensitive is checked
+against the live system, not trusted from here.
 
 ## What is here
 
