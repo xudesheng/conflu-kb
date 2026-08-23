@@ -1,0 +1,3 @@
+id = "twx-k8s"
+title = "ThingWorx Containerization Guide"
+summary = "Deploying ThingWorx on Azure AKS: resource groups and networking, container registry, Helm charts, AKS cluster, monitoring, cert-manager, nginx and Istio ingress paths, PostgreSQL Flexible Server, storage, standalone to HA, eMC, and ThingWorx upgrades."
