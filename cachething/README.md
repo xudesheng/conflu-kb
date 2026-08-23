@@ -23,7 +23,7 @@ archives, environment files, and other samples are deliberately left out).
 ## Versions
 
 Cache Thing exists from **ThingWorx 10.0.0**; some patterns the book
-describes need **10.0.1** (see `src/introduction.md` "Version history" and
-`src/basic_concepts.md`). On a ThingWorx 9.x system this digest is still
+describes need **10.0.1** (see `src/introduction.md` "Version Availability"
+and `src/basic_concepts.md`). On a ThingWorx 9.x system this digest is still
 useful as the reason to upgrade, which is why `kb.toml` does not declare a
 minimum version: the chapters say which version each pattern needs.
