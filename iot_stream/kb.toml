@@ -1,0 +1,3 @@
+id = "iot_stream"
+title = "ThingWorx IoT Stream Practice"
+summary = "ThingWorx IoT Streams (10.0+): durable queues, publishing platform data to Kafka and Azure Event Hub, WriteJSONToQueue custom payloads (10.0.1+), DataChange vs external routing, consumer groups and partitions, and a consumer-extension sample walkthrough."
