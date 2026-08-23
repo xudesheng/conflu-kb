@@ -1,0 +1,3 @@
+id = "parler"
+title = "Parler Kit"
+summary = "Configure, deploy, diagnose and test Parler (the ThingWorx AI data-insight agent extension) with a coding agent: the configuration repository (taxonomies, tools, skills, playbooks, policies, host contexts), document knowledge, the agent's services and contracts, the workshop course book and worked examples, plus Conflu-facing skills."

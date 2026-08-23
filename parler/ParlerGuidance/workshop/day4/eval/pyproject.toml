@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "parler-workshop-eval"
+version = "0.1.0"
+description = "Workshop-local Parler agent eval runner and sample suites"
+requires-python = ">=3.11"
+dependencies = [
+    "pyyaml>=6.0",
+]
+
+[project.scripts]
+agent-eval = "test_scripts.agent_eval:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["test_scripts"]
