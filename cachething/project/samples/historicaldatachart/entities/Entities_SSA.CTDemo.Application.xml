@@ -1,0 +1,3306 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Entities build="b92" majorVersion="10" minorVersion="0" modelPersistenceProviderPackage="PostgresPersistenceProviderPackage" revision="1" schemaVersion="1200" universal="password"><StyleDefinitions><StyleDefinition aspect.isThemeObject="true" description="Default style for textbox widget focus - Theme: Thingworx" documentationContent="" homeMashup="" lastModifiedDate="2025-06-10T10:45:45.445Z" name="SSA.CTDemo.App.DefaultFocusStyle_SY" projectName="SSA.CTDemo.Application" tags=""><Owner name="ssauvage" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTableDefinitions/><ConfigurationTables/><content><![CDATA[{
+  "backgroundColor" : "",
+  "displayString" : "",
+  "fontEmphasisBold" : false,
+  "fontEmphasisItalic" : false,
+  "fontEmphasisUnderline" : false,
+  "foregroundColor" : "",
+  "image" : "",
+  "lineColor" : "#3399ff",
+  "lineStyle" : "solid",
+  "lineThickness" : 1,
+  "secondaryBackgroundColor" : "",
+  "textSize" : "xxl"
+}]]></content><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="header : name : updated&#10;" timestamp="2025-06-10T10:45:36.978Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="style : textSize : updated&#10;" timestamp="2025-06-10T10:45:45.445Z" user="ssauvage"/></ConfigurationChanges></StyleDefinition><StyleDefinition aspect.isThemeObject="true" description="Default Style for the TextBox Widgets - Theme: Thingworx" documentationContent="" homeMashup="" lastModifiedDate="2025-06-10T10:47:02.781Z" name="SSA.CTDemo.App.DefaultTextBoxStyle_SY" projectName="SSA.CTDemo.Application" tags=""><Owner name="ssauvage" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTableDefinitions/><ConfigurationTables/><content><![CDATA[{
+  "backgroundColor" : "#ffffff",
+  "displayString" : "",
+  "fontEmphasisBold" : false,
+  "fontEmphasisItalic" : false,
+  "fontEmphasisUnderline" : false,
+  "foregroundColor" : "#333333",
+  "image" : "",
+  "lineColor" : "#cccccc",
+  "lineStyle" : "solid",
+  "lineThickness" : 1,
+  "secondaryBackgroundColor" : "",
+  "textSize" : "xxl"
+}]]></content><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="header : name : updated&#10;" timestamp="2025-06-10T10:46:53.971Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="style : textSize : updated&#10;" timestamp="2025-06-10T10:47:02.781Z" user="ssauvage"/></ConfigurationChanges></StyleDefinition><StyleDefinition aspect.isThemeObject="true" description="" documentationContent="" homeMashup="" lastModifiedDate="2025-06-10T10:47:58.204Z" name="SSA.CTDemo.App.DefaultWidgetLabelStyle_SY" projectName="SSA.CTDemo.Application" tags=""><Owner name="ssauvage" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTableDefinitions/><ConfigurationTables/><content><![CDATA[{
+  "backgroundColor" : "",
+  "displayString" : "",
+  "fontEmphasisBold" : false,
+  "fontEmphasisItalic" : false,
+  "fontEmphasisUnderline" : false,
+  "foregroundColor" : "#333333",
+  "image" : "",
+  "lineColor" : "",
+  "lineStyle" : "solid",
+  "lineThickness" : 1,
+  "secondaryBackgroundColor" : "",
+  "textSize" : "xxl"
+}]]></content><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="header : name : updated&#10;style : textSize : updated&#10;" timestamp="2025-06-10T10:43:04.966Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="style : textSize : updated&#10;" timestamp="2025-06-10T10:44:17.033Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="style : textSize : updated&#10;" timestamp="2025-06-10T10:44:39.866Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="style : fontEmphasisBold : updated&#10;" timestamp="2025-06-10T10:47:58.204Z" user="ssauvage"/></ConfigurationChanges></StyleDefinition></StyleDefinitions><Networks/><PersistenceProviderPackages/><QueueProviders/><Mashups><Mashup aspect.isFlex="true" aspect.isResponsive="true" aspect.mashupType="mashup" columns="0.0" description="" documentationContent="" homeMashup="" lastModifiedDate="2025-06-10T10:49:21.821Z" name="SSA.CTDemo.App.SampleChartHistoricalData_MU" projectName="SSA.CTDemo.Application" rows="0.0" tags=""><Owner name="ssauvage" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTableDefinitions/><ConfigurationTables><ConfigurationTable dataShapeName="" description="Mashup Mobile Settings" isHidden="true" isMultiRow="false" name="MobileSettings" ordinal="0"><DataShape><FieldDefinitions><FieldDefinition aspect.defaultValue="false" aspect.friendlyName="Disable Zoom" baseType="BOOLEAN" description="Disables zooming in and out within the mashup" name="disableZoom" ordinal="0"/><FieldDefinition aspect.defaultValue="true" aspect.friendlyName="Full Screen Mode" baseType="BOOLEAN" description="Open the mashup in full screen mode" name="fullScreenMode" ordinal="0"/><FieldDefinition aspect.friendlyName="Height" baseType="STRING" description="The height of the mashup page" name="height" ordinal="0"/><FieldDefinition aspect.defaultValue="device-height" aspect.friendlyName="Height Type" baseType="STRING" description="Use the height of the device display, or a custom height (in px)" name="heightType" ordinal="0"/><FieldDefinition aspect.defaultValue="1.0" aspect.friendlyName="Initial Scale" baseType="NUMBER" description="The initial zoom scale when the mashup is loaded for the first time" name="initialScale" ordinal="0"/><FieldDefinition aspect.friendlyName="Shortcut Icon Title" baseType="STRING" description="A title for the mashup shortcut on the iOS home screen" name="iosShortcutIconTitle" ordinal="0"/><FieldDefinition aspect.defaultValue="black-translucent" aspect.friendlyName="Status Bar Appearance" baseType="STRING" description="The style of the iOS status bar" name="iosStatusBarAppearance" ordinal="0"/><FieldDefinition aspect.defaultValue="10.0" aspect.friendlyName="Maximum Scale" baseType="NUMBER" description="The maximum scale that users can zoom out to" name="maximumScale" ordinal="0"/><FieldDefinition aspect.defaultValue="0.1" aspect.friendlyName="Minimum Scale" baseType="NUMBER" description="The minimum scale that users can zoom out to" name="minimumScale" ordinal="0"/><FieldDefinition aspect.friendlyName="Width" baseType="STRING" description="The width of the mashup page" name="width" ordinal="0"/><FieldDefinition aspect.defaultValue="device-width" aspect.friendlyName="Width Type" baseType="STRING" description="Use the width of the device display, or a custom width (in px)" name="widthType" ordinal="0"/></FieldDefinitions></DataShape><Rows><Row><disableZoom>false</disableZoom><fullScreenMode>true</fullScreenMode><height><![CDATA[device-height]]></height><heightType><![CDATA[device-height]]></heightType><initialScale>1.0</initialScale><iosShortcutIconTitle/><iosStatusBarAppearance><![CDATA[black-translucent]]></iosStatusBarAppearance><maximumScale>10.0</maximumScale><minimumScale>0.1</minimumScale><width><![CDATA[device-width]]></width><widthType><![CDATA[device-width]]></widthType></Row></Rows></ConfigurationTable></ConfigurationTables><ParameterDefinitions/><Things/><ThingShapes/><ThingTemplates/><mashupContent><![CDATA[{
+  "CustomMashupCss" : "",
+  "Data" : {
+    "Session" : {
+      "DataName" : "Session",
+      "EntityName" : "",
+      "EntityType" : "Session",
+      "Id" : "session",
+      "Services" : [ {
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "Id" : "SessionInterface",
+        "Name" : "GetGlobalSessionValues",
+        "Parameters" : { },
+        "RefreshInterval" : 0,
+        "Target" : "GetGlobalSessionValues"
+      } ]
+    },
+    "Things_SSA.CTDemo.App.Manager" : {
+      "DataName" : "Things_SSA.CTDemo.App.Manager",
+      "EntityName" : "SSA.CTDemo.App.Manager",
+      "EntityType" : "Things",
+      "Id" : "af0beb3d-8d66-48aa-a2b5-f6fb489ee7d1",
+      "RefreshInterval" : 0,
+      "Services" : [ {
+        "APIMethod" : "post",
+        "Caching" : {
+          "cache" : false,
+          "cacheKeyParams" : [ ],
+          "cacheStrategy" : "INSTANCE",
+          "maxResultSets" : "10"
+        },
+        "Characteristic" : "Services",
+        "Id" : "9d34531c-3a72-4291-adf6-774550f92600",
+        "Name" : "GetSampleThingTemplates",
+        "Parameters" : { },
+        "RefreshInterval" : 0,
+        "Target" : "GetSampleThingTemplates"
+      }, {
+        "APIMethod" : "post",
+        "Caching" : {
+          "cache" : false,
+          "cacheKeyParams" : [ ],
+          "cacheStrategy" : "INSTANCE",
+          "maxResultSets" : "10"
+        },
+        "Characteristic" : "Services",
+        "Id" : "8c8bfc82-fab8-4ed1-8af5-fbc24475b035",
+        "Name" : "GetSampleHistoricalChartData",
+        "Parameters" : { },
+        "RefreshInterval" : 0,
+        "Target" : "GetSampleHistoricalChartData"
+      } ]
+    },
+    "Things_SSA.CTDemo.App.SampleHistoricalChartDataCache" : {
+      "DataName" : "Things_SSA.CTDemo.App.SampleHistoricalChartDataCache",
+      "EntityName" : "SSA.CTDemo.App.SampleHistoricalChartDataCache",
+      "EntityType" : "Things",
+      "Id" : "6b376fbd-7152-46bc-bad2-d5ea2c495fbe",
+      "RefreshInterval" : 0,
+      "Services" : [ {
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "Id" : "4e08393b-4a7c-4ee0-9ae8-5a02a6b0b027",
+        "Name" : "GetEstimatedEntryCount",
+        "Parameters" : { },
+        "RefreshInterval" : 0,
+        "Target" : "GetEstimatedEntryCount"
+      }, {
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "Id" : "acba5595-d692-4364-b836-97ac74f3d81c",
+        "Name" : "PurgeCache",
+        "Parameters" : { },
+        "RefreshInterval" : 0,
+        "Target" : "PurgeCache"
+      } ]
+    },
+    "UserExtensions" : {
+      "DataName" : "UserExtensions",
+      "EntityName" : "",
+      "EntityType" : "UserExtensions",
+      "Id" : "UserExtensions",
+      "Services" : [ {
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "Id" : "UserExtensionInterface",
+        "Name" : "GetCurrentUserExtensionProperties",
+        "Parameters" : { },
+        "RefreshInterval" : 0,
+        "Target" : "GetCurrentUserExtensionProperties"
+      } ]
+    }
+  },
+  "DataBindings" : [ {
+    "Id" : "1659628d-5df1-40c0-973b-1bde88bd323d",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "",
+      "SourcePropertyBaseType" : "INFOTABLE",
+      "SourcePropertyType" : "InfoTable",
+      "TargetProperty" : "Data",
+      "TargetPropertyBaseType" : "INFOTABLE",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleThingTemplates",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcsdropdown-5",
+    "TargetSection" : ""
+  }, {
+    "Id" : "60fcff9d-4b11-4268-9d44-74abb113a126",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "Value",
+      "SourcePropertyBaseType" : "NUMBER",
+      "SourcePropertyType" : "Property",
+      "TargetProperty" : "nbOfDaysToRequest",
+      "TargetPropertyBaseType" : "INTEGER",
+      "TargetPropertyType" : "Parameter"
+    } ],
+    "SourceArea" : "UI",
+    "SourceDetails" : "",
+    "SourceId" : "numericentry-6",
+    "SourceSection" : "",
+    "TargetArea" : "Data",
+    "TargetId" : "GetSampleHistoricalChartData",
+    "TargetSection" : "Things_SSA.CTDemo.App.Manager"
+  }, {
+    "Id" : "1b9def19-57c9-46c4-8ed2-8f1773d4fec3",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "SelectedText",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Property",
+      "TargetProperty" : "sampleThingTemplate",
+      "TargetPropertyBaseType" : "THINGTEMPLATENAME",
+      "TargetPropertyType" : "Parameter"
+    } ],
+    "SourceArea" : "UI",
+    "SourceDetails" : "",
+    "SourceId" : "ptcsdropdown-5",
+    "SourceSection" : "",
+    "TargetArea" : "Data",
+    "TargetId" : "GetSampleHistoricalChartData",
+    "TargetSection" : "Things_SSA.CTDemo.App.Manager"
+  }, {
+    "Id" : "7fefdb56-6c1e-475b-b4c1-b170171c6203",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "values",
+      "SourcePropertyBaseType" : "INFOTABLE",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "Data",
+      "TargetPropertyBaseType" : "INFOTABLE",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartData",
+    "SourceName" : "GetSampleHistoricalChartData",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "5a3f6e52-d859-40aa-b6e1-6974b8b0d5e0",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_01",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel1",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartData",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "c2d93fbf-8b16-4aac-847b-a4a502b572aa",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_10",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel10",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartData",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "d31fc792-2fc9-40fc-9e80-685d456c8c86",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_11",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel11",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartData",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "39e78a2a-940b-4221-bd36-fad46ddd84ec",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_12",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel12",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartData",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "40e55604-53aa-4b6f-9f18-eee29b566a08",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_13",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel13",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartData",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "7453a30b-583d-4730-b155-1bfab780c185",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_14",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel14",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartData",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "475ba4ce-c378-4340-960a-99b8695f9090",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_15",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel15",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartData",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "58a7340c-05b6-4c18-b1f1-cf71f927a7d3",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_16",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel16",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartData",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "710d5ae0-a90a-4b18-8abe-547755234469",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_17",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel17",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartData",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "a6be1562-fbac-49fa-b44e-1dfc790dc22a",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_18",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel18",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartData",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "48b9a0cd-6243-463a-9686-4b0f1ec0a734",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_19",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel19",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartData",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "7348c6b4-15e5-4db7-8cad-f5282ba7c6fa",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_20",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel20",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartData",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "acc01810-63db-4f57-92da-228b7646ad6b",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_02",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel2",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartData",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "65253590-3f21-453d-8ab5-24db1a59dc00",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_21",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel21",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartData",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "b2d31dda-c590-4bb3-8079-c0ff12970f4c",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_22",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel22",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartData",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "8d3a152e-3c89-4f63-adc4-b0c9f654faab",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_23",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel23",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartData",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "bd831833-5904-443f-b825-05e55569f67a",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_24",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel24",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartData",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "6c78dec8-e858-459d-84dc-05951ce090b7",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_03",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel3",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartData",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "c2f2ba21-b342-4f06-9a06-2576cf012157",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_04",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel4",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartData",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "11a04583-ce06-4b54-b856-6782516ddf3f",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_05",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel5",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartData",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "beb97e4f-da63-4abc-83ca-63abd04aaf59",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_06",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel6",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartData",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "5e82883f-dcb4-41d3-934f-9db6a2eab4f8",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_07",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel7",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartData",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "0e792d9c-4aa7-4031-bd44-60d1845e3425",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_08",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel8",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartData",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "b1b82b70-21bf-4667-aa57-a668000c71d1",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_09",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel9",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartData",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "6f003953-07e3-481d-a57e-edf64a85b7f1",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "Output",
+      "SourcePropertyBaseType" : "DATETIME",
+      "SourcePropertyType" : "property",
+      "TargetProperty" : "startTime",
+      "TargetPropertyBaseType" : "DATETIME",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "UI",
+    "SourceId" : "expression2-10",
+    "SourceSection" : "",
+    "TargetArea" : "UI",
+    "TargetId" : "expression2-11",
+    "TargetSection" : ""
+  }, {
+    "Id" : "7b005114-e2a6-40fa-a35a-1bea07434bc8",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "Output",
+      "SourcePropertyBaseType" : "NUMBER",
+      "SourcePropertyType" : "property",
+      "TargetProperty" : "Text",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "UI",
+    "SourceId" : "expression2-11",
+    "SourceSection" : "",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcstextfield-12",
+    "TargetSection" : ""
+  }, {
+    "Id" : "957e5c03-cb65-49d7-8306-71abf00ec2bd",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "result",
+      "SourcePropertyBaseType" : "LONG",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "Text",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetEstimatedEntryCount",
+    "SourceSection" : "Things_SSA.CTDemo.App.SampleHistoricalChartDataCache",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcstextfield-17",
+    "TargetSection" : ""
+  } ],
+  "DesignTimePermissions" : { },
+  "Events" : [ {
+    "EventHandlerArea" : "Data",
+    "EventHandlerId" : "Things_SSA.CTDemo.App.Manager",
+    "EventHandlerService" : "GetSampleThingTemplates",
+    "EventTriggerArea" : "Mashup",
+    "EventTriggerEvent" : "Loaded",
+    "EventTriggerId" : "mashup-root",
+    "EventTriggerSection" : "",
+    "Id" : "163f12e9-ca6a-4734-901b-8dbcc132125b"
+  }, {
+    "EventHandlerArea" : "Data",
+    "EventHandlerId" : "Things_SSA.CTDemo.App.Manager",
+    "EventHandlerService" : "GetSampleHistoricalChartData",
+    "EventHandlerServiceMethod" : "",
+    "EventTriggerArea" : "UI",
+    "EventTriggerEvent" : "Clicked",
+    "EventTriggerId" : "ptcsbutton-8",
+    "EventTriggerSection" : "",
+    "Id" : "fe53ead1-9d13-4e86-8c1f-3805b0113fef"
+  }, {
+    "EventHandlerArea" : "UI",
+    "EventHandlerId" : "ptcsbutton-8",
+    "EventHandlerService" : "TriggerClick",
+    "EventHandlerServiceMethod" : "",
+    "EventTriggerArea" : "UI",
+    "EventTriggerEvent" : "SelectedTextChanged",
+    "EventTriggerId" : "ptcsdropdown-5",
+    "EventTriggerSection" : "",
+    "Id" : "363127aa-5b36-4b7b-ac5e-a72411b55762"
+  }, {
+    "EventHandlerArea" : "UI",
+    "EventHandlerId" : "expression2-10",
+    "EventHandlerService" : "Evaluate",
+    "EventHandlerServiceMethod" : "",
+    "EventTriggerArea" : "UI",
+    "EventTriggerEvent" : "Clicked",
+    "EventTriggerId" : "ptcsbutton-8",
+    "EventTriggerSection" : "",
+    "Id" : "45c14d4a-7641-4fc1-9ab7-70829c11e5da"
+  }, {
+    "EventHandlerArea" : "UI",
+    "EventHandlerId" : "expression2-11",
+    "EventHandlerService" : "Evaluate",
+    "EventHandlerServiceMethod" : "",
+    "EventTriggerArea" : "Data",
+    "EventTriggerEvent" : "ServiceInvokeCompleted",
+    "EventTriggerId" : "GetSampleHistoricalChartData",
+    "EventTriggerSection" : "Things_SSA.CTDemo.App.Manager",
+    "Id" : "58a776ca-e940-49ae-9a3a-50d76723a1fe"
+  }, {
+    "EventHandlerArea" : "Data",
+    "EventHandlerId" : "Things_SSA.CTDemo.App.SampleHistoricalChartDataCache",
+    "EventHandlerService" : "PurgeCache",
+    "EventHandlerServiceMethod" : "",
+    "EventTriggerArea" : "UI",
+    "EventTriggerEvent" : "Clicked",
+    "EventTriggerId" : "ptcsbutton-14",
+    "EventTriggerSection" : "",
+    "Id" : "c60fa825-4d78-4ab7-91f7-13a47edbe334"
+  }, {
+    "EventHandlerArea" : "Data",
+    "EventHandlerId" : "Things_SSA.CTDemo.App.SampleHistoricalChartDataCache",
+    "EventHandlerService" : "GetEstimatedEntryCount",
+    "EventHandlerServiceMethod" : "",
+    "EventTriggerArea" : "UI",
+    "EventTriggerEvent" : "Clicked",
+    "EventTriggerId" : "ptcsbutton-16",
+    "EventTriggerSection" : "",
+    "Id" : "bab6e1e1-4367-4099-882f-ef664efa63bf"
+  } ],
+  "Reminders" : [ ],
+  "RunTimePermissions" : { },
+  "UI" : {
+    "Properties" : {
+      "AddToDashboardButton" : "SimplePlus",
+      "AddToDashboardButtonStyle" : "DefaultAddToDashboardButtonStyle",
+      "Area" : "Mashup",
+      "BGImage" : "",
+      "BGImageRepeat" : "no-repeat",
+      "BGImageSize" : "auto",
+      "Columns" : 0,
+      "ConfigureGadgetButton" : "SimpleGear",
+      "ConfigureGadgetButtonStyle" : "DefaultConfigureGadgetButtonStyle",
+      "DisableLegacyCustomClassStyles" : false,
+      "DisplayName" : "Mashup",
+      "EnableParameterEditing" : false,
+      "Height" : 618,
+      "Id" : "mashup-root",
+      "IgnoreWarningsInViewMashup" : false,
+      "IsPrintLayout" : false,
+      "Left" : 0,
+      "LegacyFocus" : false,
+      "Margin" : "5",
+      "MashupToEditGadget" : "DefaultMashupToEditGadget",
+      "MinHeight" : 0,
+      "MinWidth" : 0,
+      "ResponsiveLayout" : true,
+      "Rows" : 0,
+      "ShowDataLoading" : true,
+      "Style" : "DefaultMashupStyle",
+      "StyleProperties" : {
+        "data" : {
+          "flexcontainer-2" : {
+            "parts" : {
+              "$" : {
+                "$" : {
+                  "background" : "#ffffff",
+                  "border-color" : "inherit",
+                  "border-radius" : "initial",
+                  "border-style" : "none",
+                  "border-width" : "0px",
+                  "padding-bottom" : "",
+                  "padding-left" : "",
+                  "padding-right" : "",
+                  "padding-top" : ""
+                }
+              }
+            },
+            "widget" : "flex-container"
+          },
+          "flexcontainer-3" : {
+            "parts" : {
+              "$" : {
+                "$" : {
+                  "background" : "#ffffff",
+                  "border-color" : "inherit",
+                  "border-radius" : "initial",
+                  "border-style" : "none",
+                  "border-width" : "0px",
+                  "padding-bottom" : "",
+                  "padding-left" : "",
+                  "padding-right" : "",
+                  "padding-top" : ""
+                }
+              }
+            },
+            "widget" : "flex-container"
+          },
+          "flexcontainer-4" : {
+            "parts" : {
+              "$" : {
+                "$" : {
+                  "background" : "#ffffff",
+                  "border-color" : "inherit",
+                  "border-radius" : "initial",
+                  "border-style" : "none",
+                  "border-width" : "0px",
+                  "padding-bottom" : "",
+                  "padding-left" : "",
+                  "padding-right" : "",
+                  "padding-top" : ""
+                }
+              }
+            },
+            "widget" : "flex-container"
+          }
+        },
+        "meta" : {
+          "type" : "WidgetStyler",
+          "version" : "1.0"
+        }
+      },
+      "StyleTheme" : "PTC Convergence Theme - Green Accent",
+      "Title" : "",
+      "TitleBar" : false,
+      "TitleBarStyle" : "DefaultTitleBarStyle",
+      "TitleBarText" : "Gadget Title Here",
+      "Top" : 0,
+      "Type" : "mashup",
+      "UseMasterTheme" : false,
+      "UseTheme" : false,
+      "UseThemeForHybrids" : false,
+      "Visible" : true,
+      "Width" : 1024,
+      "Z-index" : 10,
+      "__TypeDisplayName" : "Mashup",
+      "_baseVersion" : "TW-139972-mm-dev-add-loading-support-to-cache-entity.server.build-b2",
+      "id_index" : 17,
+      "secureExpressionsOnly" : true,
+      "supportsAutoResize" : true
+    },
+    "Widgets" : [ {
+      "Properties" : {
+        "Area" : "UI",
+        "CollapseTabIcon" : "",
+        "DisableLegacyCustomClassStyles" : false,
+        "DisplayName" : "container-2",
+        "EnableContainerUnload" : false,
+        "EnableExpandCollapse" : false,
+        "ExpandCollapseTabLocation" : "inside",
+        "ExpandTabIcon" : "",
+        "Expanded" : true,
+        "Id" : "flexcontainer-2",
+        "LastContainer" : true,
+        "LazyLoading" : false,
+        "Left" : 0,
+        "Margin" : "",
+        "Overlay" : false,
+        "OverrideChildrenAbsolute" : false,
+        "ResponsiveLayout" : true,
+        "ShowDataLoading" : true,
+        "ShowExpandCollapseTab" : false,
+        "ShowVerticalScrollbar" : false,
+        "SourceURL" : "",
+        "Style" : "DefaultContainerStyle",
+        "StyleProperties" : { },
+        "Top" : 0,
+        "Type" : "flexcontainer",
+        "UseTheme" : true,
+        "Visible" : true,
+        "Z-index" : 10,
+        "__TypeDisplayName" : "Responsive Container",
+        "_baseVersion" : "TW-139972-mm-dev-add-loading-support-to-cache-entity.server.build-b2",
+        "align-content" : "flex-start",
+        "align-items" : "flex-start",
+        "flex-basis" : "auto",
+        "flex-direction" : "column",
+        "flex-grow" : 1,
+        "flex-max-height" : "",
+        "flex-max-width" : "",
+        "flex-min-height" : "",
+        "flex-min-width" : "",
+        "flex-shrink" : 1,
+        "flex-size" : "default",
+        "flex-wrap" : "nowrap",
+        "iconClass" : "widgets-flexcontainer",
+        "justify-content" : "flex-start",
+        "positioning" : "responsive",
+        "userCannotRemove" : true
+      },
+      "Widgets" : [ {
+        "Properties" : {
+          "Area" : "UI",
+          "CollapseTabIcon" : "",
+          "DisableLegacyCustomClassStyles" : false,
+          "DisplayName" : "container-4",
+          "EnableContainerUnload" : false,
+          "EnableExpandCollapse" : false,
+          "ExpandCollapseTabLocation" : "inside",
+          "ExpandTabIcon" : "",
+          "Expanded" : true,
+          "Id" : "flexcontainer-4",
+          "LastContainer" : false,
+          "LazyLoading" : false,
+          "Margin" : "",
+          "Overlay" : false,
+          "OverrideChildrenAbsolute" : false,
+          "ResponsiveLayout" : true,
+          "ShowDataLoading" : true,
+          "ShowExpandCollapseTab" : false,
+          "ShowVerticalScrollbar" : false,
+          "SourceURL" : "",
+          "Style" : "DefaultContainerStyle",
+          "StyleProperties" : { },
+          "Type" : "flexcontainer",
+          "UseTheme" : true,
+          "Visible" : true,
+          "Z-index" : 10,
+          "__TypeDisplayName" : "Responsive Container",
+          "align-content" : "flex-start",
+          "align-items" : "flex-end",
+          "flex-basis" : "auto",
+          "flex-direction" : "row",
+          "flex-grow" : 1,
+          "flex-max-height" : "",
+          "flex-max-width" : "",
+          "flex-min-height" : "",
+          "flex-min-width" : "",
+          "flex-shrink" : 1,
+          "flex-size" : "default",
+          "flex-wrap" : "nowrap",
+          "iconClass" : "widgets-flexcontainer",
+          "isLocked" : false,
+          "justify-content" : "center",
+          "positioning" : "responsive",
+          "userCannotRemove" : false
+        },
+        "Widgets" : [ {
+          "Properties" : {
+            "Alignment" : "left",
+            "AllLabel" : "[[all]]",
+            "Area" : "UI",
+            "AutoSelectFirstRow" : true,
+            "ClearSelectedItemsLabel" : "[[clearSelectedItems]]",
+            "ClearSelectionItem" : false,
+            "ClearSelectionLabel" : "[[None]]",
+            "CriteriaMessage" : "",
+            "CriteriaMessageDetails" : "",
+            "DisableLegacyCustomClassStyles" : false,
+            "Disabled" : false,
+            "DisplayField" : "name",
+            "DisplayFieldBaseType" : "STRING",
+            "DisplayName" : "ptcs-dropdown-5",
+            "FilterHintText" : "Filter",
+            "HintText" : "[[Select]]",
+            "Id" : "ptcsdropdown-5",
+            "ItemMeta" : {
+              "type" : "text"
+            },
+            "Label" : "Select Thing Type",
+            "LabelAlignment" : "left",
+            "LastContainer" : false,
+            "Left" : 171,
+            "ListFormat_StateParameters" : [ ],
+            "ListMarginTop" : 8,
+            "ListMaxWidth" : 330,
+            "Margin" : "5",
+            "MultiSelect" : false,
+            "RequiredMessage" : "[[Widgets.Validation.ListSelection.RequiredMessage]]",
+            "ResponsiveLayout" : false,
+            "RowHeight" : 34,
+            "SelectAllLabel" : "[[selectAll]]",
+            "SelectedLabel" : "[[selected]]",
+            "ShowDataLoading" : true,
+            "ShowListFilter" : true,
+            "ShowValidationCriteria" : false,
+            "ShowValidationFailure" : false,
+            "ShowValidationSuccess" : false,
+            "SuccessMessage" : "",
+            "SuccessMessageDetails" : "",
+            "TabSequence" : 0,
+            "Top" : 103.39999389648438,
+            "Type" : "ptcsdropdown",
+            "UseTheme" : true,
+            "ValidationCriteriaIcon" : "cds:icon_info",
+            "ValidationFailureIcon" : "cds:icon_error",
+            "ValidationState" : "undefined",
+            "ValidationSuccessIcon" : "cds:icon_success",
+            "ValueField" : "name",
+            "ValueRequired" : false,
+            "Visible" : true,
+            "Width" : 273,
+            "Z-index" : 10,
+            "__TypeDisplayName" : "DropDown",
+            "_baseVersion" : "TW"
+          },
+          "Widgets" : [ ]
+        }, {
+          "Properties" : {
+            "AllowDecimals" : true,
+            "AllowNegatives" : true,
+            "AllowUndefinedValues" : false,
+            "Area" : "UI",
+            "ConstrainValue" : false,
+            "DisableLegacyCustomClassStyles" : false,
+            "Disabled" : false,
+            "DisplayName" : "numericentry-6",
+            "FixedDigits" : 0,
+            "Height" : 39,
+            "Id" : "numericentry-6",
+            "InnerShadow" : true,
+            "Label" : "Number of days to request",
+            "LabelAlignment" : "left",
+            "LastContainer" : false,
+            "Left" : 1072,
+            "Margin" : "5",
+            "Maximum" : 100,
+            "Minimum" : 1,
+            "NumericEntryFocusStyle" : "SSA.CTDemo.App.DefaultFocusStyle_SY",
+            "NumericEntryLabelStyle" : "SSA.CTDemo.App.DefaultWidgetLabelStyle_SY",
+            "ResponsiveLayout" : false,
+            "ShowDataLoading" : true,
+            "Style" : "SSA.CTDemo.App.DefaultTextBoxStyle_SY",
+            "TabSequence" : 0,
+            "ToolTipField" : "",
+            "ToolTipStyle" : "DefaultTooltipStyle",
+            "Top" : 309.3999938964844,
+            "Type" : "numericentry",
+            "Value" : 20,
+            "ValueAlign" : "right",
+            "Visible" : true,
+            "Width" : 200,
+            "Z-index" : 10,
+            "__TypeDisplayName" : "Numeric Entry",
+            "__supportsLabel" : true,
+            "__supportsTooltip" : true,
+            "_baseVersion" : "TW"
+          },
+          "Widgets" : [ ]
+        }, {
+          "Properties" : {
+            "Area" : "UI",
+            "ButtonType" : "primary",
+            "ContextID" : "",
+            "DisableLegacyCustomClassStyles" : false,
+            "Disabled" : false,
+            "DisplayName" : "ptcs-button-8",
+            "FocusOnLoad" : false,
+            "IconPosition" : "left",
+            "Id" : "ptcsbutton-8",
+            "Label" : "Get Data",
+            "LabelAlignment" : "center",
+            "LastContainer" : false,
+            "Left" : 1225.2000122070312,
+            "Margin" : "5",
+            "MultiLine" : false,
+            "ResponsiveLayout" : false,
+            "SVGIcon" : "cds:icon_refresh",
+            "ShowDataLoading" : true,
+            "Size" : "standard",
+            "TabSequence" : 0,
+            "Top" : 306.6000061035156,
+            "Type" : "ptcsbutton",
+            "UseTheme" : true,
+            "Visible" : true,
+            "Z-index" : 10,
+            "__TypeDisplayName" : "Button",
+            "_baseVersion" : "TW"
+          },
+          "Widgets" : [ ]
+        }, {
+          "Properties" : {
+            "Area" : "UI",
+            "Counter" : false,
+            "CriteriaMessage" : "",
+            "CriteriaMessageDetails" : "",
+            "DisableLegacyCustomClassStyles" : false,
+            "Disabled" : false,
+            "DisplayName" : "ptcs-textfield-12",
+            "FocusOnLoad" : false,
+            "Id" : "ptcstextfield-12",
+            "Label" : "Duration (seconds)",
+            "LabelAlignment" : "center",
+            "LastContainer" : false,
+            "Left" : 1250,
+            "Margin" : "5",
+            "MaxLengthFailureMessage" : "[[Widgets.Validation.MaxLengthFailureMessage]]",
+            "MaxNumberOfCharacters" : 100,
+            "MinLengthFailureMessage" : "[[Widgets.Validation.MinLengthFailureMessage]]",
+            "Password" : false,
+            "ReadOnly" : true,
+            "RequiredMessage" : "[[Widgets.Validation.RequiredMessage]]",
+            "ResponsiveLayout" : false,
+            "ShowClearText" : true,
+            "ShowDataLoading" : true,
+            "ShowValidationCriteria" : false,
+            "ShowValidationFailure" : false,
+            "ShowValidationSuccess" : false,
+            "SuccessMessage" : "",
+            "SuccessMessageDetails" : "",
+            "TabSequence" : 0,
+            "TextAlignment" : "right",
+            "Top" : 485.3999938964844,
+            "Type" : "ptcstextfield",
+            "UseTheme" : true,
+            "ValidationCriteriaIcon" : "cds:icon_info",
+            "ValidationFailureIcon" : "cds:icon_error",
+            "ValidationState" : "undefined",
+            "ValidationSuccessIcon" : "cds:icon_success",
+            "ValueRequired" : false,
+            "Visible" : true,
+            "Width" : 150,
+            "Z-index" : 10,
+            "__TypeDisplayName" : "Text Field",
+            "_baseVersion" : "TW"
+          },
+          "Widgets" : [ ]
+        }, {
+          "Properties" : {
+            "Area" : "UI",
+            "ButtonType" : "danger",
+            "ContextID" : "",
+            "DisableLegacyCustomClassStyles" : false,
+            "Disabled" : false,
+            "DisplayName" : "ptcs-button-14",
+            "FocusOnLoad" : false,
+            "IconPosition" : "left",
+            "Id" : "ptcsbutton-14",
+            "Label" : "Purge Cache",
+            "LabelAlignment" : "center",
+            "LastContainer" : false,
+            "Left" : 1032.2000122070312,
+            "Margin" : "5 5 5 105",
+            "MultiLine" : false,
+            "ResponsiveLayout" : false,
+            "ShowDataLoading" : true,
+            "Size" : "standard",
+            "TabSequence" : 0,
+            "Top" : 308.6000061035156,
+            "Type" : "ptcsbutton",
+            "UseTheme" : true,
+            "Visible" : true,
+            "Z-index" : 10,
+            "__TypeDisplayName" : "Button",
+            "_baseVersion" : "TW"
+          },
+          "Widgets" : [ ]
+        }, {
+          "Properties" : {
+            "Area" : "UI",
+            "ButtonType" : "secondary",
+            "ContextID" : "",
+            "DisableLegacyCustomClassStyles" : false,
+            "Disabled" : false,
+            "DisplayName" : "ptcs-button-16",
+            "FocusOnLoad" : false,
+            "IconPosition" : "left",
+            "Id" : "ptcsbutton-16",
+            "Label" : "Get Cache Entries Count",
+            "LabelAlignment" : "center",
+            "LastContainer" : false,
+            "Left" : 1268,
+            "Margin" : "5",
+            "MultiLine" : false,
+            "ResponsiveLayout" : false,
+            "ShowDataLoading" : true,
+            "Size" : "standard",
+            "TabSequence" : 0,
+            "Top" : 395.3999938964844,
+            "Type" : "ptcsbutton",
+            "UseTheme" : true,
+            "Visible" : true,
+            "Z-index" : 10,
+            "__TypeDisplayName" : "Button",
+            "_baseVersion" : "TW"
+          },
+          "Widgets" : [ ]
+        }, {
+          "Properties" : {
+            "Area" : "UI",
+            "Counter" : false,
+            "CriteriaMessage" : "",
+            "CriteriaMessageDetails" : "",
+            "DisableLegacyCustomClassStyles" : false,
+            "Disabled" : false,
+            "DisplayName" : "ptcs-textfield-17",
+            "FocusOnLoad" : false,
+            "Id" : "ptcstextfield-17",
+            "Label" : "Cache Entries Count",
+            "LabelAlignment" : "center",
+            "LastContainer" : false,
+            "Left" : 1250,
+            "Margin" : "5",
+            "MaxLengthFailureMessage" : "[[Widgets.Validation.MaxLengthFailureMessage]]",
+            "MaxNumberOfCharacters" : 100,
+            "MinLengthFailureMessage" : "[[Widgets.Validation.MinLengthFailureMessage]]",
+            "Password" : false,
+            "ReadOnly" : true,
+            "RequiredMessage" : "[[Widgets.Validation.RequiredMessage]]",
+            "ResponsiveLayout" : false,
+            "ShowClearText" : true,
+            "ShowDataLoading" : true,
+            "ShowValidationCriteria" : false,
+            "ShowValidationFailure" : false,
+            "ShowValidationSuccess" : false,
+            "SuccessMessage" : "",
+            "SuccessMessageDetails" : "",
+            "TabSequence" : 0,
+            "TextAlignment" : "right",
+            "Top" : 485.3999938964844,
+            "Type" : "ptcstextfield",
+            "UseTheme" : true,
+            "ValidationCriteriaIcon" : "cds:icon_info",
+            "ValidationFailureIcon" : "cds:icon_error",
+            "ValidationState" : "undefined",
+            "ValidationSuccessIcon" : "cds:icon_success",
+            "ValueRequired" : false,
+            "Visible" : true,
+            "Width" : 150,
+            "Z-index" : 10,
+            "__TypeDisplayName" : "Text Field",
+            "_baseVersion" : "TW"
+          },
+          "Widgets" : [ ]
+        } ]
+      }, {
+        "Properties" : {
+          "Area" : "UI",
+          "CollapseTabIcon" : "",
+          "DisableLegacyCustomClassStyles" : false,
+          "DisplayName" : "container-3",
+          "EnableContainerUnload" : false,
+          "EnableExpandCollapse" : false,
+          "ExpandCollapseTabLocation" : "inside",
+          "ExpandTabIcon" : "",
+          "Expanded" : true,
+          "Id" : "flexcontainer-3",
+          "LastContainer" : false,
+          "LazyLoading" : false,
+          "Margin" : "",
+          "Overlay" : false,
+          "OverrideChildrenAbsolute" : false,
+          "ResponsiveLayout" : true,
+          "ShowDataLoading" : true,
+          "ShowExpandCollapseTab" : false,
+          "ShowVerticalScrollbar" : false,
+          "SourceURL" : "",
+          "Style" : "DefaultContainerStyle",
+          "StyleProperties" : { },
+          "Type" : "flexcontainer",
+          "UseTheme" : true,
+          "Visible" : true,
+          "Z-index" : 10,
+          "__TypeDisplayName" : "Responsive Container",
+          "_baseVersion" : "TW-139972-mm-dev-add-loading-support-to-cache-entity.server.build-b2",
+          "align-content" : "flex-start",
+          "align-items" : "flex-start",
+          "flex-basis" : "auto",
+          "flex-direction" : "row",
+          "flex-grow" : 50,
+          "flex-max-height" : "",
+          "flex-max-width" : "",
+          "flex-min-height" : "",
+          "flex-min-width" : "",
+          "flex-shrink" : 1,
+          "flex-size" : "default",
+          "flex-wrap" : "nowrap",
+          "iconClass" : "widgets-flexcontainer",
+          "isLocked" : false,
+          "justify-content" : "flex-start",
+          "positioning" : "responsive",
+          "userCannotRemove" : false
+        },
+        "Widgets" : [ {
+          "Properties" : {
+            "Area" : "UI",
+            "ChartType" : "runchart",
+            "CurveFitting" : "monotone-x",
+            "DataField1" : "t_01",
+            "DataField10" : "t_10",
+            "DataField11" : "t_11",
+            "DataField12" : "t_12",
+            "DataField13" : "t_13",
+            "DataField14" : "t_14",
+            "DataField15" : "t_15",
+            "DataField16" : "t_16",
+            "DataField17" : "t_17",
+            "DataField18" : "t_18",
+            "DataField19" : "t_19",
+            "DataField2" : "t_02",
+            "DataField20" : "t_20",
+            "DataField21" : "t_21",
+            "DataField22" : "t_22",
+            "DataField23" : "t_23",
+            "DataField24" : "t_24",
+            "DataField3" : "t_03",
+            "DataField4" : "t_04",
+            "DataField5" : "t_05",
+            "DataField6" : "t_06",
+            "DataField7" : "t_07",
+            "DataField8" : "t_08",
+            "DataField9" : "t_09",
+            "DataLabel1" : "",
+            "DataLabel10" : "",
+            "DataLabel11" : "",
+            "DataLabel12" : "",
+            "DataLabel13" : "",
+            "DataLabel14" : "",
+            "DataLabel15" : "",
+            "DataLabel16" : "",
+            "DataLabel17" : "",
+            "DataLabel18" : "",
+            "DataLabel19" : "",
+            "DataLabel2" : "",
+            "DataLabel20" : "",
+            "DataLabel21" : "",
+            "DataLabel22" : "",
+            "DataLabel23" : "",
+            "DataLabel24" : "",
+            "DataLabel3" : "",
+            "DataLabel4" : "",
+            "DataLabel5" : "",
+            "DataLabel6" : "",
+            "DataLabel7" : "",
+            "DataLabel8" : "",
+            "DataLabel9" : "",
+            "DataPointSelection" : "auto",
+            "DataSeriesStyle10_StateParameters" : [ ],
+            "DataSeriesStyle11_StateParameters" : [ ],
+            "DataSeriesStyle12_StateParameters" : [ ],
+            "DataSeriesStyle13_StateParameters" : [ ],
+            "DataSeriesStyle14_StateParameters" : [ ],
+            "DataSeriesStyle15_StateParameters" : [ ],
+            "DataSeriesStyle16_StateParameters" : [ ],
+            "DataSeriesStyle17_StateParameters" : [ ],
+            "DataSeriesStyle18_StateParameters" : [ ],
+            "DataSeriesStyle19_StateParameters" : [ ],
+            "DataSeriesStyle1_StateParameters" : [ ],
+            "DataSeriesStyle20_StateParameters" : [ ],
+            "DataSeriesStyle21_StateParameters" : [ ],
+            "DataSeriesStyle22_StateParameters" : [ ],
+            "DataSeriesStyle23_StateParameters" : [ ],
+            "DataSeriesStyle24_StateParameters" : [ ],
+            "DataSeriesStyle2_StateParameters" : [ ],
+            "DataSeriesStyle3_StateParameters" : [ ],
+            "DataSeriesStyle4_StateParameters" : [ ],
+            "DataSeriesStyle5_StateParameters" : [ ],
+            "DataSeriesStyle6_StateParameters" : [ ],
+            "DataSeriesStyle7_StateParameters" : [ ],
+            "DataSeriesStyle8_StateParameters" : [ ],
+            "DataSeriesStyle9_StateParameters" : [ ],
+            "DataSeriesStyle_StateParameters" : [ ],
+            "DateRangeHintText" : "[[selectDateAndTime]]",
+            "DirectSelectionZoom" : "none",
+            "DisableLegacyCustomClassStyles" : false,
+            "Disabled" : false,
+            "DisplayName" : "ptcs-chartline-9",
+            "DragSelectionZoom" : "both",
+            "EmptyChartIcon" : "cds:icon_not_visible",
+            "EmptyChartLabel" : "[[ChartStateLabelEmpty]]",
+            "ErrorStateIcon" : "cds:icon_error",
+            "ErrorStateLabel" : "[[ChartStateLabelError]]",
+            "FillContainer" : true,
+            "Height" : 476,
+            "HideDataTooltips" : false,
+            "HideLegend" : false,
+            "HideLegendLabel" : "[[hideLegend]]",
+            "HideLines" : false,
+            "HideMarkers" : true,
+            "HideNotes" : false,
+            "HideValues" : false,
+            "HideXAxis" : false,
+            "HideYAxis" : false,
+            "HorizontalAxisMaxHeight" : 85,
+            "HorizontalEndZoomLabel" : "",
+            "HorizontalIntervalAnchorPoint" : "start",
+            "HorizontalIntervalAnchorPointLabel" : "",
+            "HorizontalIntervalControl" : "none",
+            "HorizontalIntervalControlLabel" : "",
+            "HorizontalRangeZoom" : false,
+            "HorizontalRangeZoomDateWidth" : 332,
+            "HorizontalSliderZoom" : true,
+            "HorizontalSliderZoomMaxLabel" : "",
+            "HorizontalSliderZoomMinLabel" : "",
+            "HorizontalStartZoomLabel" : "",
+            "HorizontalZoom" : true,
+            "Id" : "ptcschartline-9",
+            "Label" : "Line Chart - Historical Data",
+            "LabelAlignment" : "left",
+            "LabelPosition" : "top",
+            "LabelReset" : "[[reset]]",
+            "LabelType" : "sub-header",
+            "LastContainer" : false,
+            "Left" : 489,
+            "LegendAlignment" : "start",
+            "LegendFilter" : true,
+            "LegendMarkerShapes" : "circle",
+            "LegendMaxWidth" : 736,
+            "LegendPosition" : "right",
+            "LoadingIcon" : "cds:icon_chart_loading_line",
+            "Margin" : "5",
+            "MarkerShape" : "circle",
+            "MarkerSize" : 8,
+            "MultipleDataSources" : false,
+            "NoDataSourceIcon" : "cds:icon_bind",
+            "NoDataSourceLabel" : "[[ChartStateLabelNoData]]",
+            "Notes" : "",
+            "NotesAlignment" : "left",
+            "NotesPosition" : "bottom",
+            "NumberOfReferenceLines" : 0,
+            "NumberOfSeries" : 24,
+            "PointerType" : "auto",
+            "ReferenceLine10Axis" : "xaxis",
+            "ReferenceLine10Value" : "",
+            "ReferenceLine11Axis" : "xaxis",
+            "ReferenceLine11Value" : "",
+            "ReferenceLine12Axis" : "xaxis",
+            "ReferenceLine12Value" : "",
+            "ReferenceLine13Axis" : "xaxis",
+            "ReferenceLine13Value" : "",
+            "ReferenceLine14Axis" : "xaxis",
+            "ReferenceLine14Value" : "",
+            "ReferenceLine15Axis" : "xaxis",
+            "ReferenceLine15Value" : "",
+            "ReferenceLine16Axis" : "xaxis",
+            "ReferenceLine16Value" : "",
+            "ReferenceLine17Axis" : "xaxis",
+            "ReferenceLine17Value" : "",
+            "ReferenceLine18Axis" : "xaxis",
+            "ReferenceLine18Value" : "",
+            "ReferenceLine19Axis" : "xaxis",
+            "ReferenceLine19Value" : "",
+            "ReferenceLine1Axis" : "xaxis",
+            "ReferenceLine1Value" : "",
+            "ReferenceLine20Axis" : "xaxis",
+            "ReferenceLine20Value" : "",
+            "ReferenceLine21Axis" : "xaxis",
+            "ReferenceLine21Value" : "",
+            "ReferenceLine22Axis" : "xaxis",
+            "ReferenceLine22Value" : "",
+            "ReferenceLine23Axis" : "xaxis",
+            "ReferenceLine23Value" : "",
+            "ReferenceLine24Axis" : "xaxis",
+            "ReferenceLine24Value" : "",
+            "ReferenceLine2Axis" : "xaxis",
+            "ReferenceLine2Value" : "",
+            "ReferenceLine3Axis" : "xaxis",
+            "ReferenceLine3Value" : "",
+            "ReferenceLine4Axis" : "xaxis",
+            "ReferenceLine4Value" : "",
+            "ReferenceLine5Axis" : "xaxis",
+            "ReferenceLine5Value" : "",
+            "ReferenceLine6Axis" : "xaxis",
+            "ReferenceLine6Value" : "",
+            "ReferenceLine7Axis" : "xaxis",
+            "ReferenceLine7Value" : "",
+            "ReferenceLine8Axis" : "xaxis",
+            "ReferenceLine8Value" : "",
+            "ReferenceLine9Axis" : "xaxis",
+            "ReferenceLine9Value" : "",
+            "ResetButtonType" : "transparent",
+            "ResponsiveLayout" : true,
+            "ReverseSecondYAxis" : false,
+            "ReverseXAxis" : false,
+            "ReverseYAxis" : false,
+            "RulersInFront" : false,
+            "SecondYAxis" : false,
+            "SecondYAxisFormat" : "0000.0",
+            "SecondYAxisLabel" : "[[SecondYAxis]]",
+            "SecondYAxisLabelAlignment" : "center",
+            "SecondYAxisType" : "number",
+            "SelectionMode" : "none",
+            "Series10MarkerType" : "default",
+            "Series11MarkerType" : "default",
+            "Series12MarkerType" : "default",
+            "Series13MarkerType" : "default",
+            "Series14MarkerType" : "default",
+            "Series15MarkerType" : "default",
+            "Series16MarkerType" : "default",
+            "Series17MarkerType" : "default",
+            "Series18MarkerType" : "default",
+            "Series19MarkerType" : "default",
+            "Series1MarkerType" : "default",
+            "Series20MarkerType" : "default",
+            "Series21MarkerType" : "default",
+            "Series22MarkerType" : "default",
+            "Series23MarkerType" : "default",
+            "Series24MarkerType" : "default",
+            "Series2MarkerType" : "default",
+            "Series3MarkerType" : "default",
+            "Series4MarkerType" : "default",
+            "Series5MarkerType" : "default",
+            "Series6MarkerType" : "default",
+            "Series7MarkerType" : "default",
+            "Series8MarkerType" : "default",
+            "Series9MarkerType" : "default",
+            "SeriesStacking" : "none",
+            "ShowArea" : false,
+            "ShowDataLoading" : true,
+            "ShowHideLegend" : true,
+            "ShowHideLegendButtonType" : "transparent",
+            "ShowHorizontalAnchorPointControl" : false,
+            "ShowLegendLabel" : "[[showLegend]]",
+            "ShowXAxisRuler" : false,
+            "ShowYAxisRuler" : false,
+            "ShowZeroValueRuler" : false,
+            "ShowZoomButtons" : false,
+            "SparkView" : false,
+            "StackOrder" : "auto",
+            "StepPosition" : "center",
+            "StringClearAll" : "[[clearAll]]",
+            "StringEnd" : "[[endRange]]",
+            "StringSelectAll" : "[[selectAll]]",
+            "StringStart" : "[[startRange]]",
+            "TabSequence" : 0,
+            "Top" : 78.0999755859375,
+            "Type" : "ptcschartline",
+            "UseSampleDataInRuntime" : false,
+            "UseSecondYAxis1" : false,
+            "UseSecondYAxis10" : false,
+            "UseSecondYAxis11" : false,
+            "UseSecondYAxis12" : false,
+            "UseSecondYAxis13" : false,
+            "UseSecondYAxis14" : false,
+            "UseSecondYAxis15" : false,
+            "UseSecondYAxis16" : false,
+            "UseSecondYAxis17" : false,
+            "UseSecondYAxis18" : false,
+            "UseSecondYAxis19" : false,
+            "UseSecondYAxis2" : false,
+            "UseSecondYAxis20" : false,
+            "UseSecondYAxis21" : false,
+            "UseSecondYAxis22" : false,
+            "UseSecondYAxis23" : false,
+            "UseSecondYAxis24" : false,
+            "UseSecondYAxis3" : false,
+            "UseSecondYAxis4" : false,
+            "UseSecondYAxis5" : false,
+            "UseSecondYAxis6" : false,
+            "UseSecondYAxis7" : false,
+            "UseSecondYAxis8" : false,
+            "UseSecondYAxis9" : false,
+            "UseTheme" : true,
+            "ValuesPosition" : "above",
+            "ValuesTooltip" : "[[LineChartDefaultTooltip]]",
+            "VerticalAxisMaxWidth" : 85,
+            "VerticalSliderZoom" : true,
+            "VerticalSliderZoomMaxLabel" : "",
+            "VerticalSliderZoomMinLabel" : "",
+            "VerticalZoom" : true,
+            "Visible" : true,
+            "Width" : 471,
+            "XAxisDateFormatToken" : "",
+            "XAxisField" : "timestamp",
+            "XAxisFormat" : "0000.0",
+            "XAxisLabel" : "Date / Time",
+            "XAxisLabelAlignment" : "start",
+            "XAxisMaximumValues" : "",
+            "XAxisMinimumValues" : "",
+            "XAxisType" : "date",
+            "YAxisDateFormatToken" : "",
+            "YAxisFormat" : "0000.0",
+            "YAxisLabel" : "Value",
+            "YAxisLabelAlignment" : "center",
+            "YAxisRulerAlignment" : "primary",
+            "YAxisType" : "number",
+            "Z-index" : 10,
+            "ZoomInLabel" : "[[zoomIn]]",
+            "ZoomOutLabel" : "[[zoomOut]]",
+            "__TypeDisplayName" : "Line Chart",
+            "_baseVersion" : "TW"
+          },
+          "Widgets" : [ ]
+        } ]
+      } ]
+    }, {
+      "Properties" : {
+        "Area" : "UI",
+        "AutoEvaluate" : false,
+        "DataChangeType" : "ALWAYS",
+        "DefaultNumberEvaluation" : false,
+        "DisableInitialOutput" : false,
+        "DisplayName" : "setStartTime",
+        "Expression" : "result = Date.now();",
+        "FireOnFirstValue" : false,
+        "Height" : 28,
+        "Id" : "expression2-10",
+        "LastContainer" : false,
+        "Left" : 0,
+        "Margin" : "5",
+        "OutputBaseType" : "DATETIME",
+        "ResponsiveLayout" : false,
+        "ShowDataLoading" : true,
+        "Top" : 0,
+        "Type" : "expression2",
+        "Visible" : true,
+        "Width" : 200,
+        "Z-index" : 10,
+        "__TypeDisplayName" : "Expression",
+        "_baseVersion" : "TW",
+        "_currentParameterDefs" : [ ]
+      },
+      "Widgets" : [ ]
+    }, {
+      "Properties" : {
+        "Area" : "UI",
+        "AutoEvaluate" : false,
+        "DataChangeType" : "ALWAYS",
+        "DefaultNumberEvaluation" : false,
+        "DisableInitialOutput" : false,
+        "DisplayName" : "computeExecutionDuration",
+        "Expression" : "result = ((Date.now() - startTime) / 1000);",
+        "FireOnFirstValue" : false,
+        "Height" : 28,
+        "Id" : "expression2-11",
+        "LastContainer" : false,
+        "Left" : 0,
+        "Margin" : "5",
+        "OutputBaseType" : "NUMBER",
+        "ResponsiveLayout" : false,
+        "ShowDataLoading" : true,
+        "Top" : 0,
+        "Type" : "expression2",
+        "Visible" : true,
+        "Width" : 200,
+        "Z-index" : 10,
+        "__TypeDisplayName" : "Expression",
+        "_baseVersion" : "TW",
+        "_currentParameterDefs" : [ {
+          "BaseType" : "DATETIME",
+          "Description" : "",
+          "ParameterName" : "startTime",
+          "bindingDirection" : "Target",
+          "bindingType" : "Property",
+          "isBindingSource" : false,
+          "isBindingTarget" : true,
+          "shown" : true
+        } ]
+      },
+      "Widgets" : [ ]
+    } ]
+  },
+  "mashupType" : "mashup"
+}]]></mashupContent><preview/><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2025-06-10T10:13:29.645Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2025-06-10T10:14:22.778Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="Mashup : design : updated&#10;" timestamp="2025-06-10T10:29:26.000Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="Mashup : design : updated&#10;" timestamp="2025-06-10T10:30:50.587Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="Mashup : design : updated&#10;" timestamp="2025-06-10T10:32:33.315Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="Mashup : design : updated&#10;" timestamp="2025-06-10T10:34:45.775Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="Mashup : design : updated&#10;" timestamp="2025-06-10T10:43:33.403Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="Mashup : design : updated&#10;" timestamp="2025-06-10T10:46:10.141Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="Mashup : design : updated&#10;" timestamp="2025-06-10T10:47:19.141Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="Mashup : design : updated&#10;" timestamp="2025-06-10T10:48:41.019Z" user="ssauvage"/></ConfigurationChanges></Mashup><Mashup aspect.isFlex="true" aspect.isResponsive="true" aspect.mashupType="mashup" columns="0.0" description="" documentationContent="" homeMashup="" lastModifiedDate="2025-06-10T10:14:16.271Z" name="SSA.CTDemo.App.SampleChartHistoricalDataWithoutCache_MU" projectName="SSA.CTDemo.Application" rows="0.0" tags=""><Owner name="ssauvage" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTableDefinitions/><ConfigurationTables><ConfigurationTable dataShapeName="" description="Mashup Mobile Settings" isHidden="true" isMultiRow="false" name="MobileSettings" ordinal="0"><DataShape><FieldDefinitions><FieldDefinition aspect.defaultValue="false" aspect.friendlyName="Disable Zoom" baseType="BOOLEAN" description="Disables zooming in and out within the mashup" name="disableZoom" ordinal="0"/><FieldDefinition aspect.defaultValue="true" aspect.friendlyName="Full Screen Mode" baseType="BOOLEAN" description="Open the mashup in full screen mode" name="fullScreenMode" ordinal="0"/><FieldDefinition aspect.friendlyName="Height" baseType="STRING" description="The height of the mashup page" name="height" ordinal="0"/><FieldDefinition aspect.defaultValue="device-height" aspect.friendlyName="Height Type" baseType="STRING" description="Use the height of the device display, or a custom height (in px)" name="heightType" ordinal="0"/><FieldDefinition aspect.defaultValue="1.0" aspect.friendlyName="Initial Scale" baseType="NUMBER" description="The initial zoom scale when the mashup is loaded for the first time" name="initialScale" ordinal="0"/><FieldDefinition aspect.friendlyName="Shortcut Icon Title" baseType="STRING" description="A title for the mashup shortcut on the iOS home screen" name="iosShortcutIconTitle" ordinal="0"/><FieldDefinition aspect.defaultValue="black-translucent" aspect.friendlyName="Status Bar Appearance" baseType="STRING" description="The style of the iOS status bar" name="iosStatusBarAppearance" ordinal="0"/><FieldDefinition aspect.defaultValue="10.0" aspect.friendlyName="Maximum Scale" baseType="NUMBER" description="The maximum scale that users can zoom out to" name="maximumScale" ordinal="0"/><FieldDefinition aspect.defaultValue="0.1" aspect.friendlyName="Minimum Scale" baseType="NUMBER" description="The minimum scale that users can zoom out to" name="minimumScale" ordinal="0"/><FieldDefinition aspect.friendlyName="Width" baseType="STRING" description="The width of the mashup page" name="width" ordinal="0"/><FieldDefinition aspect.defaultValue="device-width" aspect.friendlyName="Width Type" baseType="STRING" description="Use the width of the device display, or a custom width (in px)" name="widthType" ordinal="0"/></FieldDefinitions></DataShape><Rows><Row><disableZoom>false</disableZoom><fullScreenMode>true</fullScreenMode><height><![CDATA[device-height]]></height><heightType><![CDATA[device-height]]></heightType><initialScale>1.0</initialScale><iosShortcutIconTitle/><iosStatusBarAppearance><![CDATA[black-translucent]]></iosStatusBarAppearance><maximumScale>10.0</maximumScale><minimumScale>0.1</minimumScale><width><![CDATA[device-width]]></width><widthType><![CDATA[device-width]]></widthType></Row></Rows></ConfigurationTable></ConfigurationTables><ParameterDefinitions/><Things/><ThingShapes/><ThingTemplates/><mashupContent><![CDATA[{
+  "CustomMashupCss" : "",
+  "Data" : {
+    "Session" : {
+      "DataName" : "Session",
+      "EntityName" : "",
+      "EntityType" : "Session",
+      "Id" : "session",
+      "Services" : [ {
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "Id" : "SessionInterface",
+        "Name" : "GetGlobalSessionValues",
+        "Parameters" : { },
+        "RefreshInterval" : 0,
+        "Target" : "GetGlobalSessionValues"
+      } ]
+    },
+    "Things_SSA.CTDemo.App.Manager" : {
+      "DataName" : "Things_SSA.CTDemo.App.Manager",
+      "EntityName" : "SSA.CTDemo.App.Manager",
+      "EntityType" : "Things",
+      "Id" : "af0beb3d-8d66-48aa-a2b5-f6fb489ee7d1",
+      "RefreshInterval" : 0,
+      "Services" : [ {
+        "APIMethod" : "post",
+        "Caching" : {
+          "cache" : false,
+          "cacheKeyParams" : [ ],
+          "cacheStrategy" : "INSTANCE",
+          "maxResultSets" : "10"
+        },
+        "Characteristic" : "Services",
+        "Id" : "9d34531c-3a72-4291-adf6-774550f92600",
+        "Name" : "GetSampleThingTemplates",
+        "Parameters" : { },
+        "RefreshInterval" : 0,
+        "Target" : "GetSampleThingTemplates"
+      }, {
+        "APIMethod" : "post",
+        "Caching" : {
+          "cache" : false,
+          "cacheKeyParams" : [ ],
+          "cacheStrategy" : "INSTANCE",
+          "maxResultSets" : "10"
+        },
+        "Characteristic" : "Services",
+        "Id" : "8c8bfc82-fab8-4ed1-8af5-fbc24475b035",
+        "Name" : "GetSampleHistoricalChartDataWithoutCache",
+        "Parameters" : { },
+        "RefreshInterval" : 0,
+        "Target" : "GetSampleHistoricalChartDataWithoutCache"
+      } ]
+    },
+    "UserExtensions" : {
+      "DataName" : "UserExtensions",
+      "EntityName" : "",
+      "EntityType" : "UserExtensions",
+      "Id" : "UserExtensions",
+      "Services" : [ {
+        "APIMethod" : "post",
+        "Characteristic" : "Services",
+        "Id" : "UserExtensionInterface",
+        "Name" : "GetCurrentUserExtensionProperties",
+        "Parameters" : { },
+        "RefreshInterval" : 0,
+        "Target" : "GetCurrentUserExtensionProperties"
+      } ]
+    }
+  },
+  "DataBindings" : [ {
+    "Id" : "1659628d-5df1-40c0-973b-1bde88bd323d",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "",
+      "SourcePropertyBaseType" : "INFOTABLE",
+      "SourcePropertyType" : "InfoTable",
+      "TargetProperty" : "Data",
+      "TargetPropertyBaseType" : "INFOTABLE",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleThingTemplates",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcsdropdown-5",
+    "TargetSection" : ""
+  }, {
+    "Id" : "60fcff9d-4b11-4268-9d44-74abb113a126",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "Value",
+      "SourcePropertyBaseType" : "NUMBER",
+      "SourcePropertyType" : "Property",
+      "TargetProperty" : "nbOfDaysToRequest",
+      "TargetPropertyBaseType" : "INTEGER",
+      "TargetPropertyType" : "Parameter"
+    } ],
+    "SourceArea" : "UI",
+    "SourceDetails" : "",
+    "SourceId" : "numericentry-6",
+    "SourceSection" : "",
+    "TargetArea" : "Data",
+    "TargetId" : "GetSampleHistoricalChartDataWithoutCache",
+    "TargetSection" : "Things_SSA.CTDemo.App.Manager"
+  }, {
+    "Id" : "1b9def19-57c9-46c4-8ed2-8f1773d4fec3",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "SelectedText",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Property",
+      "TargetProperty" : "sampleThingTemplate",
+      "TargetPropertyBaseType" : "THINGTEMPLATENAME",
+      "TargetPropertyType" : "Parameter"
+    } ],
+    "SourceArea" : "UI",
+    "SourceDetails" : "",
+    "SourceId" : "ptcsdropdown-5",
+    "SourceSection" : "",
+    "TargetArea" : "Data",
+    "TargetId" : "GetSampleHistoricalChartDataWithoutCache",
+    "TargetSection" : "Things_SSA.CTDemo.App.Manager"
+  }, {
+    "Id" : "7fefdb56-6c1e-475b-b4c1-b170171c6203",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "values",
+      "SourcePropertyBaseType" : "INFOTABLE",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "Data",
+      "TargetPropertyBaseType" : "INFOTABLE",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartDataWithoutCache",
+    "SourceName" : "GetSampleHistoricalChartDataWithoutCache",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "5a3f6e52-d859-40aa-b6e1-6974b8b0d5e0",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_01",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel1",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartDataWithoutCache",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "c2d93fbf-8b16-4aac-847b-a4a502b572aa",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_10",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel10",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartDataWithoutCache",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "d31fc792-2fc9-40fc-9e80-685d456c8c86",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_11",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel11",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartDataWithoutCache",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "39e78a2a-940b-4221-bd36-fad46ddd84ec",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_12",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel12",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartDataWithoutCache",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "40e55604-53aa-4b6f-9f18-eee29b566a08",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_13",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel13",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartDataWithoutCache",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "7453a30b-583d-4730-b155-1bfab780c185",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_14",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel14",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartDataWithoutCache",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "475ba4ce-c378-4340-960a-99b8695f9090",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_15",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel15",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartDataWithoutCache",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "58a7340c-05b6-4c18-b1f1-cf71f927a7d3",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_16",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel16",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartDataWithoutCache",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "710d5ae0-a90a-4b18-8abe-547755234469",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_17",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel17",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartDataWithoutCache",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "a6be1562-fbac-49fa-b44e-1dfc790dc22a",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_18",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel18",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartDataWithoutCache",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "48b9a0cd-6243-463a-9686-4b0f1ec0a734",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_19",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel19",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartDataWithoutCache",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "7348c6b4-15e5-4db7-8cad-f5282ba7c6fa",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_20",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel20",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartDataWithoutCache",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "acc01810-63db-4f57-92da-228b7646ad6b",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_02",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel2",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartDataWithoutCache",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "65253590-3f21-453d-8ab5-24db1a59dc00",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_21",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel21",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartDataWithoutCache",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "b2d31dda-c590-4bb3-8079-c0ff12970f4c",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_22",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel22",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartDataWithoutCache",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "8d3a152e-3c89-4f63-adc4-b0c9f654faab",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_23",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel23",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartDataWithoutCache",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "bd831833-5904-443f-b825-05e55569f67a",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_24",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel24",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartDataWithoutCache",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "6c78dec8-e858-459d-84dc-05951ce090b7",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_03",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel3",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartDataWithoutCache",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "c2f2ba21-b342-4f06-9a06-2576cf012157",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_04",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel4",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartDataWithoutCache",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "11a04583-ce06-4b54-b856-6782516ddf3f",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_05",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel5",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartDataWithoutCache",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "beb97e4f-da63-4abc-83ca-63abd04aaf59",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_06",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel6",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartDataWithoutCache",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "5e82883f-dcb4-41d3-934f-9db6a2eab4f8",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_07",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel7",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartDataWithoutCache",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "0e792d9c-4aa7-4031-bd44-60d1845e3425",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_08",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel8",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartDataWithoutCache",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "b1b82b70-21bf-4667-aa57-a668000c71d1",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "label_09",
+      "SourcePropertyBaseType" : "STRING",
+      "SourcePropertyType" : "Field",
+      "TargetProperty" : "DataLabel9",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "Data",
+    "SourceDetails" : "AllData",
+    "SourceId" : "GetSampleHistoricalChartDataWithoutCache",
+    "SourceSection" : "Things_SSA.CTDemo.App.Manager",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcschartline-9",
+    "TargetSection" : ""
+  }, {
+    "Id" : "6f003953-07e3-481d-a57e-edf64a85b7f1",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "Output",
+      "SourcePropertyBaseType" : "DATETIME",
+      "SourcePropertyType" : "property",
+      "TargetProperty" : "startTime",
+      "TargetPropertyBaseType" : "DATETIME",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "UI",
+    "SourceId" : "expression2-10",
+    "SourceSection" : "",
+    "TargetArea" : "UI",
+    "TargetId" : "expression2-11",
+    "TargetSection" : ""
+  }, {
+    "Id" : "291f6300-200a-4aba-b515-bf5e71dd1e82",
+    "PropertyMaps" : [ {
+      "SourceProperty" : "Output",
+      "SourcePropertyBaseType" : "NUMBER",
+      "SourcePropertyType" : "property",
+      "TargetProperty" : "Text",
+      "TargetPropertyBaseType" : "STRING",
+      "TargetPropertyType" : "property"
+    } ],
+    "SourceArea" : "UI",
+    "SourceId" : "expression2-11",
+    "SourceSection" : "",
+    "TargetArea" : "UI",
+    "TargetId" : "ptcstextfield-12",
+    "TargetSection" : ""
+  } ],
+  "DesignTimePermissions" : { },
+  "Events" : [ {
+    "EventHandlerArea" : "Data",
+    "EventHandlerId" : "Things_SSA.CTDemo.App.Manager",
+    "EventHandlerService" : "GetSampleThingTemplates",
+    "EventTriggerArea" : "Mashup",
+    "EventTriggerEvent" : "Loaded",
+    "EventTriggerId" : "mashup-root",
+    "EventTriggerSection" : "",
+    "Id" : "163f12e9-ca6a-4734-901b-8dbcc132125b"
+  }, {
+    "EventHandlerArea" : "Data",
+    "EventHandlerId" : "Things_SSA.CTDemo.App.Manager",
+    "EventHandlerService" : "GetSampleHistoricalChartDataWithoutCache",
+    "EventHandlerServiceMethod" : "",
+    "EventTriggerArea" : "UI",
+    "EventTriggerEvent" : "Clicked",
+    "EventTriggerId" : "ptcsbutton-8",
+    "EventTriggerSection" : "",
+    "Id" : "3cd7eaf2-e239-40a5-980c-579e79c119b3"
+  }, {
+    "EventHandlerArea" : "UI",
+    "EventHandlerId" : "ptcsbutton-8",
+    "EventHandlerService" : "TriggerClick",
+    "EventHandlerServiceMethod" : "",
+    "EventTriggerArea" : "UI",
+    "EventTriggerEvent" : "SelectedTextChanged",
+    "EventTriggerId" : "ptcsdropdown-5",
+    "EventTriggerSection" : "",
+    "Id" : "67aef9e7-4c9a-4ef3-a27f-bb513b5f9598"
+  }, {
+    "EventHandlerArea" : "UI",
+    "EventHandlerId" : "expression2-10",
+    "EventHandlerService" : "Evaluate",
+    "EventHandlerServiceMethod" : "",
+    "EventTriggerArea" : "UI",
+    "EventTriggerEvent" : "Clicked",
+    "EventTriggerId" : "ptcsbutton-8",
+    "EventTriggerSection" : "",
+    "Id" : "771c0bb0-cdc2-4361-8e81-a644ac856192"
+  }, {
+    "EventHandlerArea" : "UI",
+    "EventHandlerId" : "expression2-11",
+    "EventHandlerService" : "Evaluate",
+    "EventHandlerServiceMethod" : "",
+    "EventTriggerArea" : "Data",
+    "EventTriggerEvent" : "ServiceInvokeCompleted",
+    "EventTriggerId" : "GetSampleHistoricalChartDataWithoutCache",
+    "EventTriggerSection" : "Things_SSA.CTDemo.App.Manager",
+    "Id" : "58a776ca-e940-49ae-9a3a-50d76723a1fe"
+  } ],
+  "Reminders" : [ ],
+  "RunTimePermissions" : { },
+  "UI" : {
+    "Properties" : {
+      "AddToDashboardButton" : "SimplePlus",
+      "AddToDashboardButtonStyle" : "DefaultAddToDashboardButtonStyle",
+      "Area" : "Mashup",
+      "BGImage" : "",
+      "BGImageRepeat" : "no-repeat",
+      "BGImageSize" : "auto",
+      "Columns" : 0,
+      "ConfigureGadgetButton" : "SimpleGear",
+      "ConfigureGadgetButtonStyle" : "DefaultConfigureGadgetButtonStyle",
+      "DisableLegacyCustomClassStyles" : false,
+      "DisplayName" : "Mashup",
+      "EnableParameterEditing" : false,
+      "Height" : 618,
+      "Id" : "mashup-root",
+      "IgnoreWarningsInViewMashup" : false,
+      "IsPrintLayout" : false,
+      "Left" : 0,
+      "LegacyFocus" : false,
+      "Margin" : "5",
+      "MashupToEditGadget" : "DefaultMashupToEditGadget",
+      "MinHeight" : 0,
+      "MinWidth" : 0,
+      "ResponsiveLayout" : true,
+      "Rows" : 0,
+      "ShowDataLoading" : true,
+      "Style" : "DefaultMashupStyle",
+      "StyleProperties" : {
+        "data" : {
+          "flexcontainer-2" : {
+            "parts" : {
+              "$" : {
+                "$" : {
+                  "background" : "#ffffff",
+                  "border-color" : "inherit",
+                  "border-radius" : "initial",
+                  "border-style" : "none",
+                  "border-width" : "0px",
+                  "padding-bottom" : "",
+                  "padding-left" : "",
+                  "padding-right" : "",
+                  "padding-top" : ""
+                }
+              }
+            },
+            "widget" : "flex-container"
+          },
+          "flexcontainer-3" : {
+            "parts" : {
+              "$" : {
+                "$" : {
+                  "background" : "#ffffff",
+                  "border-color" : "inherit",
+                  "border-radius" : "initial",
+                  "border-style" : "none",
+                  "border-width" : "0px",
+                  "padding-bottom" : "",
+                  "padding-left" : "",
+                  "padding-right" : "",
+                  "padding-top" : ""
+                }
+              }
+            },
+            "widget" : "flex-container"
+          },
+          "flexcontainer-4" : {
+            "parts" : {
+              "$" : {
+                "$" : {
+                  "background" : "#ffffff",
+                  "border-color" : "inherit",
+                  "border-radius" : "initial",
+                  "border-style" : "none",
+                  "border-width" : "0px",
+                  "padding-bottom" : "",
+                  "padding-left" : "",
+                  "padding-right" : "",
+                  "padding-top" : ""
+                }
+              }
+            },
+            "widget" : "flex-container"
+          }
+        },
+        "meta" : {
+          "type" : "WidgetStyler",
+          "version" : "1.0"
+        }
+      },
+      "StyleTheme" : "PTC Convergence Theme - Green Accent",
+      "Title" : "",
+      "TitleBar" : false,
+      "TitleBarStyle" : "DefaultTitleBarStyle",
+      "TitleBarText" : "Gadget Title Here",
+      "Top" : 0,
+      "Type" : "mashup",
+      "UseMasterTheme" : false,
+      "UseTheme" : false,
+      "UseThemeForHybrids" : false,
+      "Visible" : true,
+      "Width" : 1024,
+      "Z-index" : 10,
+      "__TypeDisplayName" : "Mashup",
+      "_baseVersion" : "TW-139972-mm-dev-add-loading-support-to-cache-entity.server.build-b2",
+      "id_index" : 13,
+      "secureExpressionsOnly" : true,
+      "supportsAutoResize" : true
+    },
+    "Widgets" : [ {
+      "Properties" : {
+        "Area" : "UI",
+        "CollapseTabIcon" : "",
+        "DisableLegacyCustomClassStyles" : false,
+        "DisplayName" : "container-2",
+        "EnableContainerUnload" : false,
+        "EnableExpandCollapse" : false,
+        "ExpandCollapseTabLocation" : "inside",
+        "ExpandTabIcon" : "",
+        "Expanded" : true,
+        "Id" : "flexcontainer-2",
+        "LastContainer" : true,
+        "LazyLoading" : false,
+        "Left" : 0,
+        "Margin" : "",
+        "Overlay" : false,
+        "OverrideChildrenAbsolute" : false,
+        "ResponsiveLayout" : true,
+        "ShowDataLoading" : true,
+        "ShowExpandCollapseTab" : false,
+        "ShowVerticalScrollbar" : false,
+        "SourceURL" : "",
+        "Style" : "DefaultContainerStyle",
+        "StyleProperties" : { },
+        "Top" : 0,
+        "Type" : "flexcontainer",
+        "UseTheme" : true,
+        "Visible" : true,
+        "Z-index" : 10,
+        "__TypeDisplayName" : "Responsive Container",
+        "_baseVersion" : "TW-139972-mm-dev-add-loading-support-to-cache-entity.server.build-b2",
+        "align-content" : "flex-start",
+        "align-items" : "flex-start",
+        "flex-basis" : "auto",
+        "flex-direction" : "column",
+        "flex-grow" : 1,
+        "flex-max-height" : "",
+        "flex-max-width" : "",
+        "flex-min-height" : "",
+        "flex-min-width" : "",
+        "flex-shrink" : 1,
+        "flex-size" : "default",
+        "flex-wrap" : "nowrap",
+        "iconClass" : "widgets-flexcontainer",
+        "justify-content" : "flex-start",
+        "positioning" : "responsive",
+        "userCannotRemove" : true
+      },
+      "Widgets" : [ {
+        "Properties" : {
+          "Area" : "UI",
+          "CollapseTabIcon" : "",
+          "DisableLegacyCustomClassStyles" : false,
+          "DisplayName" : "container-4",
+          "EnableContainerUnload" : false,
+          "EnableExpandCollapse" : false,
+          "ExpandCollapseTabLocation" : "inside",
+          "ExpandTabIcon" : "",
+          "Expanded" : true,
+          "Id" : "flexcontainer-4",
+          "LastContainer" : false,
+          "LazyLoading" : false,
+          "Margin" : "",
+          "Overlay" : false,
+          "OverrideChildrenAbsolute" : false,
+          "ResponsiveLayout" : true,
+          "ShowDataLoading" : true,
+          "ShowExpandCollapseTab" : false,
+          "ShowVerticalScrollbar" : false,
+          "SourceURL" : "",
+          "Style" : "DefaultContainerStyle",
+          "StyleProperties" : { },
+          "Type" : "flexcontainer",
+          "UseTheme" : true,
+          "Visible" : true,
+          "Z-index" : 10,
+          "__TypeDisplayName" : "Responsive Container",
+          "align-content" : "flex-start",
+          "align-items" : "flex-end",
+          "flex-basis" : "auto",
+          "flex-direction" : "row",
+          "flex-grow" : 1,
+          "flex-max-height" : "",
+          "flex-max-width" : "",
+          "flex-min-height" : "",
+          "flex-min-width" : "",
+          "flex-shrink" : 1,
+          "flex-size" : "default",
+          "flex-wrap" : "nowrap",
+          "iconClass" : "widgets-flexcontainer",
+          "isLocked" : false,
+          "justify-content" : "center",
+          "positioning" : "responsive",
+          "userCannotRemove" : false
+        },
+        "Widgets" : [ {
+          "Properties" : {
+            "Alignment" : "left",
+            "AllLabel" : "[[all]]",
+            "Area" : "UI",
+            "AutoSelectFirstRow" : true,
+            "ClearSelectedItemsLabel" : "[[clearSelectedItems]]",
+            "ClearSelectionItem" : false,
+            "ClearSelectionLabel" : "[[None]]",
+            "CriteriaMessage" : "",
+            "CriteriaMessageDetails" : "",
+            "DisableLegacyCustomClassStyles" : false,
+            "Disabled" : false,
+            "DisplayField" : "name",
+            "DisplayFieldBaseType" : "STRING",
+            "DisplayName" : "ptcs-dropdown-5",
+            "FilterHintText" : "Filter",
+            "HintText" : "[[Select]]",
+            "Id" : "ptcsdropdown-5",
+            "ItemMeta" : {
+              "type" : "text"
+            },
+            "Label" : "Select Thing Type",
+            "LabelAlignment" : "left",
+            "LastContainer" : false,
+            "Left" : 171,
+            "ListFormat_StateParameters" : [ ],
+            "ListMarginTop" : 8,
+            "ListMaxWidth" : 330,
+            "Margin" : "5",
+            "MultiSelect" : false,
+            "RequiredMessage" : "[[Widgets.Validation.ListSelection.RequiredMessage]]",
+            "ResponsiveLayout" : false,
+            "RowHeight" : 34,
+            "SelectAllLabel" : "[[selectAll]]",
+            "SelectedLabel" : "[[selected]]",
+            "ShowDataLoading" : true,
+            "ShowListFilter" : true,
+            "ShowValidationCriteria" : false,
+            "ShowValidationFailure" : false,
+            "ShowValidationSuccess" : false,
+            "SuccessMessage" : "",
+            "SuccessMessageDetails" : "",
+            "TabSequence" : 0,
+            "Top" : 103.39999389648438,
+            "Type" : "ptcsdropdown",
+            "UseTheme" : true,
+            "ValidationCriteriaIcon" : "cds:icon_info",
+            "ValidationFailureIcon" : "cds:icon_error",
+            "ValidationState" : "undefined",
+            "ValidationSuccessIcon" : "cds:icon_success",
+            "ValueField" : "name",
+            "ValueRequired" : false,
+            "Visible" : true,
+            "Width" : 273,
+            "Z-index" : 10,
+            "__TypeDisplayName" : "DropDown",
+            "_baseVersion" : "TW"
+          },
+          "Widgets" : [ ]
+        }, {
+          "Properties" : {
+            "AllowDecimals" : true,
+            "AllowNegatives" : true,
+            "AllowUndefinedValues" : false,
+            "Area" : "UI",
+            "ConstrainValue" : false,
+            "DisableLegacyCustomClassStyles" : false,
+            "Disabled" : false,
+            "DisplayName" : "numericentry-6",
+            "FixedDigits" : 0,
+            "Height" : 39,
+            "Id" : "numericentry-6",
+            "InnerShadow" : true,
+            "Label" : "Number of days to request",
+            "LabelAlignment" : "left",
+            "LastContainer" : false,
+            "Left" : 1072,
+            "Margin" : "5",
+            "Maximum" : 100,
+            "Minimum" : 1,
+            "NumericEntryFocusStyle" : "DefaultFocusStyle",
+            "NumericEntryLabelStyle" : "DefaultWidgetLabelStyle",
+            "ResponsiveLayout" : false,
+            "ShowDataLoading" : true,
+            "Style" : "DefaultTextBoxStyle",
+            "TabSequence" : 0,
+            "ToolTipField" : "",
+            "ToolTipStyle" : "DefaultTooltipStyle",
+            "Top" : 309.3999938964844,
+            "Type" : "numericentry",
+            "Value" : 20,
+            "ValueAlign" : "right",
+            "Visible" : true,
+            "Width" : 200,
+            "Z-index" : 10,
+            "__TypeDisplayName" : "Numeric Entry",
+            "__supportsLabel" : true,
+            "__supportsTooltip" : true,
+            "_baseVersion" : "TW"
+          },
+          "Widgets" : [ ]
+        }, {
+          "Properties" : {
+            "Area" : "UI",
+            "ButtonType" : "primary",
+            "ContextID" : "",
+            "DisableLegacyCustomClassStyles" : false,
+            "Disabled" : false,
+            "DisplayName" : "ptcs-button-8",
+            "FocusOnLoad" : false,
+            "IconPosition" : "left",
+            "Id" : "ptcsbutton-8",
+            "Label" : "Get Data",
+            "LabelAlignment" : "center",
+            "LastContainer" : false,
+            "Left" : 1225.2000122070312,
+            "Margin" : "5",
+            "MultiLine" : false,
+            "ResponsiveLayout" : false,
+            "SVGIcon" : "cds:icon_refresh",
+            "ShowDataLoading" : true,
+            "Size" : "standard",
+            "TabSequence" : 0,
+            "Top" : 306.6000061035156,
+            "Type" : "ptcsbutton",
+            "UseTheme" : true,
+            "Visible" : true,
+            "Z-index" : 10,
+            "__TypeDisplayName" : "Button",
+            "_baseVersion" : "TW"
+          },
+          "Widgets" : [ ]
+        }, {
+          "Properties" : {
+            "Area" : "UI",
+            "Counter" : false,
+            "CriteriaMessage" : "",
+            "CriteriaMessageDetails" : "",
+            "DisableLegacyCustomClassStyles" : false,
+            "Disabled" : false,
+            "DisplayName" : "ptcs-textfield-12",
+            "FocusOnLoad" : false,
+            "Id" : "ptcstextfield-12",
+            "Label" : "Duration (seconds)",
+            "LabelAlignment" : "left",
+            "LastContainer" : false,
+            "Left" : 1250,
+            "Margin" : "5",
+            "MaxLengthFailureMessage" : "[[Widgets.Validation.MaxLengthFailureMessage]]",
+            "MaxNumberOfCharacters" : 100,
+            "MinLengthFailureMessage" : "[[Widgets.Validation.MinLengthFailureMessage]]",
+            "Password" : false,
+            "ReadOnly" : true,
+            "RequiredMessage" : "[[Widgets.Validation.RequiredMessage]]",
+            "ResponsiveLayout" : false,
+            "ShowClearText" : true,
+            "ShowDataLoading" : true,
+            "ShowValidationCriteria" : false,
+            "ShowValidationFailure" : false,
+            "ShowValidationSuccess" : false,
+            "SuccessMessage" : "",
+            "SuccessMessageDetails" : "",
+            "TabSequence" : 0,
+            "TextAlignment" : "left",
+            "Top" : 485.3999938964844,
+            "Type" : "ptcstextfield",
+            "UseTheme" : true,
+            "ValidationCriteriaIcon" : "cds:icon_info",
+            "ValidationFailureIcon" : "cds:icon_error",
+            "ValidationState" : "undefined",
+            "ValidationSuccessIcon" : "cds:icon_success",
+            "ValueRequired" : false,
+            "Visible" : true,
+            "Width" : 273,
+            "Z-index" : 10,
+            "__TypeDisplayName" : "Text Field",
+            "_baseVersion" : "TW"
+          },
+          "Widgets" : [ ]
+        } ]
+      }, {
+        "Properties" : {
+          "Area" : "UI",
+          "CollapseTabIcon" : "",
+          "DisableLegacyCustomClassStyles" : false,
+          "DisplayName" : "container-3",
+          "EnableContainerUnload" : false,
+          "EnableExpandCollapse" : false,
+          "ExpandCollapseTabLocation" : "inside",
+          "ExpandTabIcon" : "",
+          "Expanded" : true,
+          "Id" : "flexcontainer-3",
+          "LastContainer" : false,
+          "LazyLoading" : false,
+          "Margin" : "",
+          "Overlay" : false,
+          "OverrideChildrenAbsolute" : false,
+          "ResponsiveLayout" : true,
+          "ShowDataLoading" : true,
+          "ShowExpandCollapseTab" : false,
+          "ShowVerticalScrollbar" : false,
+          "SourceURL" : "",
+          "Style" : "DefaultContainerStyle",
+          "StyleProperties" : { },
+          "Type" : "flexcontainer",
+          "UseTheme" : true,
+          "Visible" : true,
+          "Z-index" : 10,
+          "__TypeDisplayName" : "Responsive Container",
+          "_baseVersion" : "TW-139972-mm-dev-add-loading-support-to-cache-entity.server.build-b2",
+          "align-content" : "flex-start",
+          "align-items" : "flex-start",
+          "flex-basis" : "auto",
+          "flex-direction" : "row",
+          "flex-grow" : 50,
+          "flex-max-height" : "",
+          "flex-max-width" : "",
+          "flex-min-height" : "",
+          "flex-min-width" : "",
+          "flex-shrink" : 1,
+          "flex-size" : "default",
+          "flex-wrap" : "nowrap",
+          "iconClass" : "widgets-flexcontainer",
+          "isLocked" : false,
+          "justify-content" : "flex-start",
+          "positioning" : "responsive",
+          "userCannotRemove" : false
+        },
+        "Widgets" : [ {
+          "Properties" : {
+            "Area" : "UI",
+            "ChartType" : "runchart",
+            "CurveFitting" : "monotone-x",
+            "DataField1" : "t_01",
+            "DataField10" : "t_10",
+            "DataField11" : "t_11",
+            "DataField12" : "t_12",
+            "DataField13" : "t_13",
+            "DataField14" : "t_14",
+            "DataField15" : "t_15",
+            "DataField16" : "t_16",
+            "DataField17" : "t_17",
+            "DataField18" : "t_18",
+            "DataField19" : "t_19",
+            "DataField2" : "t_02",
+            "DataField20" : "t_20",
+            "DataField21" : "t_21",
+            "DataField22" : "t_22",
+            "DataField23" : "t_23",
+            "DataField24" : "t_24",
+            "DataField3" : "t_03",
+            "DataField4" : "t_04",
+            "DataField5" : "t_05",
+            "DataField6" : "t_06",
+            "DataField7" : "t_07",
+            "DataField8" : "t_08",
+            "DataField9" : "t_09",
+            "DataLabel1" : "",
+            "DataLabel10" : "",
+            "DataLabel11" : "",
+            "DataLabel12" : "",
+            "DataLabel13" : "",
+            "DataLabel14" : "",
+            "DataLabel15" : "",
+            "DataLabel16" : "",
+            "DataLabel17" : "",
+            "DataLabel18" : "",
+            "DataLabel19" : "",
+            "DataLabel2" : "",
+            "DataLabel20" : "",
+            "DataLabel21" : "",
+            "DataLabel22" : "",
+            "DataLabel23" : "",
+            "DataLabel24" : "",
+            "DataLabel3" : "",
+            "DataLabel4" : "",
+            "DataLabel5" : "",
+            "DataLabel6" : "",
+            "DataLabel7" : "",
+            "DataLabel8" : "",
+            "DataLabel9" : "",
+            "DataPointSelection" : "auto",
+            "DataSeriesStyle10_StateParameters" : [ ],
+            "DataSeriesStyle11_StateParameters" : [ ],
+            "DataSeriesStyle12_StateParameters" : [ ],
+            "DataSeriesStyle13_StateParameters" : [ ],
+            "DataSeriesStyle14_StateParameters" : [ ],
+            "DataSeriesStyle15_StateParameters" : [ ],
+            "DataSeriesStyle16_StateParameters" : [ ],
+            "DataSeriesStyle17_StateParameters" : [ ],
+            "DataSeriesStyle18_StateParameters" : [ ],
+            "DataSeriesStyle19_StateParameters" : [ ],
+            "DataSeriesStyle1_StateParameters" : [ ],
+            "DataSeriesStyle20_StateParameters" : [ ],
+            "DataSeriesStyle21_StateParameters" : [ ],
+            "DataSeriesStyle22_StateParameters" : [ ],
+            "DataSeriesStyle23_StateParameters" : [ ],
+            "DataSeriesStyle24_StateParameters" : [ ],
+            "DataSeriesStyle2_StateParameters" : [ ],
+            "DataSeriesStyle3_StateParameters" : [ ],
+            "DataSeriesStyle4_StateParameters" : [ ],
+            "DataSeriesStyle5_StateParameters" : [ ],
+            "DataSeriesStyle6_StateParameters" : [ ],
+            "DataSeriesStyle7_StateParameters" : [ ],
+            "DataSeriesStyle8_StateParameters" : [ ],
+            "DataSeriesStyle9_StateParameters" : [ ],
+            "DataSeriesStyle_StateParameters" : [ ],
+            "DateRangeHintText" : "[[selectDateAndTime]]",
+            "DirectSelectionZoom" : "none",
+            "DisableLegacyCustomClassStyles" : false,
+            "Disabled" : false,
+            "DisplayName" : "ptcs-chartline-9",
+            "DragSelectionZoom" : "both",
+            "EmptyChartIcon" : "cds:icon_not_visible",
+            "EmptyChartLabel" : "[[ChartStateLabelEmpty]]",
+            "ErrorStateIcon" : "cds:icon_error",
+            "ErrorStateLabel" : "[[ChartStateLabelError]]",
+            "FillContainer" : true,
+            "Height" : 476,
+            "HideDataTooltips" : false,
+            "HideLegend" : false,
+            "HideLegendLabel" : "[[hideLegend]]",
+            "HideLines" : false,
+            "HideMarkers" : true,
+            "HideNotes" : false,
+            "HideValues" : false,
+            "HideXAxis" : false,
+            "HideYAxis" : false,
+            "HorizontalAxisMaxHeight" : 85,
+            "HorizontalEndZoomLabel" : "",
+            "HorizontalIntervalAnchorPoint" : "start",
+            "HorizontalIntervalAnchorPointLabel" : "",
+            "HorizontalIntervalControl" : "none",
+            "HorizontalIntervalControlLabel" : "",
+            "HorizontalRangeZoom" : false,
+            "HorizontalRangeZoomDateWidth" : 332,
+            "HorizontalSliderZoom" : true,
+            "HorizontalSliderZoomMaxLabel" : "",
+            "HorizontalSliderZoomMinLabel" : "",
+            "HorizontalStartZoomLabel" : "",
+            "HorizontalZoom" : true,
+            "Id" : "ptcschartline-9",
+            "Label" : "Line Chart - Historical Data",
+            "LabelAlignment" : "left",
+            "LabelPosition" : "top",
+            "LabelReset" : "[[reset]]",
+            "LabelType" : "sub-header",
+            "LastContainer" : false,
+            "Left" : 489,
+            "LegendAlignment" : "start",
+            "LegendFilter" : true,
+            "LegendMarkerShapes" : "circle",
+            "LegendMaxWidth" : 736,
+            "LegendPosition" : "right",
+            "LoadingIcon" : "cds:icon_chart_loading_line",
+            "Margin" : "5",
+            "MarkerShape" : "circle",
+            "MarkerSize" : 8,
+            "MultipleDataSources" : false,
+            "NoDataSourceIcon" : "cds:icon_bind",
+            "NoDataSourceLabel" : "[[ChartStateLabelNoData]]",
+            "Notes" : "",
+            "NotesAlignment" : "left",
+            "NotesPosition" : "bottom",
+            "NumberOfReferenceLines" : 0,
+            "NumberOfSeries" : 24,
+            "PointerType" : "auto",
+            "ReferenceLine10Axis" : "xaxis",
+            "ReferenceLine10Value" : "",
+            "ReferenceLine11Axis" : "xaxis",
+            "ReferenceLine11Value" : "",
+            "ReferenceLine12Axis" : "xaxis",
+            "ReferenceLine12Value" : "",
+            "ReferenceLine13Axis" : "xaxis",
+            "ReferenceLine13Value" : "",
+            "ReferenceLine14Axis" : "xaxis",
+            "ReferenceLine14Value" : "",
+            "ReferenceLine15Axis" : "xaxis",
+            "ReferenceLine15Value" : "",
+            "ReferenceLine16Axis" : "xaxis",
+            "ReferenceLine16Value" : "",
+            "ReferenceLine17Axis" : "xaxis",
+            "ReferenceLine17Value" : "",
+            "ReferenceLine18Axis" : "xaxis",
+            "ReferenceLine18Value" : "",
+            "ReferenceLine19Axis" : "xaxis",
+            "ReferenceLine19Value" : "",
+            "ReferenceLine1Axis" : "xaxis",
+            "ReferenceLine1Value" : "",
+            "ReferenceLine20Axis" : "xaxis",
+            "ReferenceLine20Value" : "",
+            "ReferenceLine21Axis" : "xaxis",
+            "ReferenceLine21Value" : "",
+            "ReferenceLine22Axis" : "xaxis",
+            "ReferenceLine22Value" : "",
+            "ReferenceLine23Axis" : "xaxis",
+            "ReferenceLine23Value" : "",
+            "ReferenceLine24Axis" : "xaxis",
+            "ReferenceLine24Value" : "",
+            "ReferenceLine2Axis" : "xaxis",
+            "ReferenceLine2Value" : "",
+            "ReferenceLine3Axis" : "xaxis",
+            "ReferenceLine3Value" : "",
+            "ReferenceLine4Axis" : "xaxis",
+            "ReferenceLine4Value" : "",
+            "ReferenceLine5Axis" : "xaxis",
+            "ReferenceLine5Value" : "",
+            "ReferenceLine6Axis" : "xaxis",
+            "ReferenceLine6Value" : "",
+            "ReferenceLine7Axis" : "xaxis",
+            "ReferenceLine7Value" : "",
+            "ReferenceLine8Axis" : "xaxis",
+            "ReferenceLine8Value" : "",
+            "ReferenceLine9Axis" : "xaxis",
+            "ReferenceLine9Value" : "",
+            "ResetButtonType" : "transparent",
+            "ResponsiveLayout" : true,
+            "ReverseSecondYAxis" : false,
+            "ReverseXAxis" : false,
+            "ReverseYAxis" : false,
+            "RulersInFront" : false,
+            "SecondYAxis" : false,
+            "SecondYAxisFormat" : "0000.0",
+            "SecondYAxisLabel" : "[[SecondYAxis]]",
+            "SecondYAxisLabelAlignment" : "center",
+            "SecondYAxisType" : "number",
+            "SelectionMode" : "none",
+            "Series10MarkerType" : "default",
+            "Series11MarkerType" : "default",
+            "Series12MarkerType" : "default",
+            "Series13MarkerType" : "default",
+            "Series14MarkerType" : "default",
+            "Series15MarkerType" : "default",
+            "Series16MarkerType" : "default",
+            "Series17MarkerType" : "default",
+            "Series18MarkerType" : "default",
+            "Series19MarkerType" : "default",
+            "Series1MarkerType" : "default",
+            "Series20MarkerType" : "default",
+            "Series21MarkerType" : "default",
+            "Series22MarkerType" : "default",
+            "Series23MarkerType" : "default",
+            "Series24MarkerType" : "default",
+            "Series2MarkerType" : "default",
+            "Series3MarkerType" : "default",
+            "Series4MarkerType" : "default",
+            "Series5MarkerType" : "default",
+            "Series6MarkerType" : "default",
+            "Series7MarkerType" : "default",
+            "Series8MarkerType" : "default",
+            "Series9MarkerType" : "default",
+            "SeriesStacking" : "none",
+            "ShowArea" : false,
+            "ShowDataLoading" : true,
+            "ShowHideLegend" : true,
+            "ShowHideLegendButtonType" : "transparent",
+            "ShowHorizontalAnchorPointControl" : false,
+            "ShowLegendLabel" : "[[showLegend]]",
+            "ShowXAxisRuler" : false,
+            "ShowYAxisRuler" : false,
+            "ShowZeroValueRuler" : false,
+            "ShowZoomButtons" : false,
+            "SparkView" : false,
+            "StackOrder" : "auto",
+            "StepPosition" : "center",
+            "StringClearAll" : "[[clearAll]]",
+            "StringEnd" : "[[endRange]]",
+            "StringSelectAll" : "[[selectAll]]",
+            "StringStart" : "[[startRange]]",
+            "TabSequence" : 0,
+            "Top" : 78.0999755859375,
+            "Type" : "ptcschartline",
+            "UseSampleDataInRuntime" : false,
+            "UseSecondYAxis1" : false,
+            "UseSecondYAxis10" : false,
+            "UseSecondYAxis11" : false,
+            "UseSecondYAxis12" : false,
+            "UseSecondYAxis13" : false,
+            "UseSecondYAxis14" : false,
+            "UseSecondYAxis15" : false,
+            "UseSecondYAxis16" : false,
+            "UseSecondYAxis17" : false,
+            "UseSecondYAxis18" : false,
+            "UseSecondYAxis19" : false,
+            "UseSecondYAxis2" : false,
+            "UseSecondYAxis20" : false,
+            "UseSecondYAxis21" : false,
+            "UseSecondYAxis22" : false,
+            "UseSecondYAxis23" : false,
+            "UseSecondYAxis24" : false,
+            "UseSecondYAxis3" : false,
+            "UseSecondYAxis4" : false,
+            "UseSecondYAxis5" : false,
+            "UseSecondYAxis6" : false,
+            "UseSecondYAxis7" : false,
+            "UseSecondYAxis8" : false,
+            "UseSecondYAxis9" : false,
+            "UseTheme" : true,
+            "ValuesPosition" : "above",
+            "ValuesTooltip" : "[[LineChartDefaultTooltip]]",
+            "VerticalAxisMaxWidth" : 85,
+            "VerticalSliderZoom" : true,
+            "VerticalSliderZoomMaxLabel" : "",
+            "VerticalSliderZoomMinLabel" : "",
+            "VerticalZoom" : true,
+            "Visible" : true,
+            "Width" : 471,
+            "XAxisDateFormatToken" : "",
+            "XAxisField" : "timestamp",
+            "XAxisFormat" : "0000.0",
+            "XAxisLabel" : "Date / Time",
+            "XAxisLabelAlignment" : "start",
+            "XAxisMaximumValues" : "",
+            "XAxisMinimumValues" : "",
+            "XAxisType" : "date",
+            "YAxisDateFormatToken" : "",
+            "YAxisFormat" : "0000.0",
+            "YAxisLabel" : "Value",
+            "YAxisLabelAlignment" : "center",
+            "YAxisRulerAlignment" : "primary",
+            "YAxisType" : "number",
+            "Z-index" : 10,
+            "ZoomInLabel" : "[[zoomIn]]",
+            "ZoomOutLabel" : "[[zoomOut]]",
+            "__TypeDisplayName" : "Line Chart",
+            "_baseVersion" : "TW"
+          },
+          "Widgets" : [ ]
+        } ]
+      } ]
+    }, {
+      "Properties" : {
+        "Area" : "UI",
+        "AutoEvaluate" : false,
+        "DataChangeType" : "ALWAYS",
+        "DefaultNumberEvaluation" : false,
+        "DisableInitialOutput" : false,
+        "DisplayName" : "setStartTime",
+        "Expression" : "result = Date.now();",
+        "FireOnFirstValue" : false,
+        "Height" : 28,
+        "Id" : "expression2-10",
+        "LastContainer" : false,
+        "Left" : 0,
+        "Margin" : "5",
+        "OutputBaseType" : "DATETIME",
+        "ResponsiveLayout" : false,
+        "ShowDataLoading" : true,
+        "Top" : 0,
+        "Type" : "expression2",
+        "Visible" : true,
+        "Width" : 200,
+        "Z-index" : 10,
+        "__TypeDisplayName" : "Expression",
+        "_baseVersion" : "TW",
+        "_currentParameterDefs" : [ ]
+      },
+      "Widgets" : [ ]
+    }, {
+      "Properties" : {
+        "Area" : "UI",
+        "AutoEvaluate" : false,
+        "DataChangeType" : "ALWAYS",
+        "DefaultNumberEvaluation" : false,
+        "DisableInitialOutput" : false,
+        "DisplayName" : "computeExecutionDuration",
+        "Expression" : "result = ((Date.now() - startTime) / 1000);",
+        "FireOnFirstValue" : false,
+        "Height" : 28,
+        "Id" : "expression2-11",
+        "LastContainer" : false,
+        "Left" : 0,
+        "Margin" : "5",
+        "OutputBaseType" : "NUMBER",
+        "ResponsiveLayout" : false,
+        "ShowDataLoading" : true,
+        "Top" : 0,
+        "Type" : "expression2",
+        "Visible" : true,
+        "Width" : 200,
+        "Z-index" : 10,
+        "__TypeDisplayName" : "Expression",
+        "_baseVersion" : "TW",
+        "_currentParameterDefs" : [ {
+          "BaseType" : "DATETIME",
+          "Description" : "",
+          "ParameterName" : "startTime",
+          "bindingDirection" : "Target",
+          "bindingType" : "Property",
+          "isBindingSource" : false,
+          "isBindingTarget" : true,
+          "shown" : true
+        } ]
+      },
+      "Widgets" : [ ]
+    } ]
+  },
+  "mashupType" : "mashup"
+}]]></mashupContent><preview/><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="header : name : updated&#10;" timestamp="2025-06-10T09:48:14.325Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2025-06-10T10:14:16.271Z" user="ssauvage"/></ConfigurationChanges></Mashup></Mashups><ScriptFunctionLibraries/><Projects><Project artifactId="" aspect.projectType="Component" dependsOn="{&quot;extensions&quot;:&quot;&quot;,&quot;projects&quot;:&quot;SSA.CTDemo.Core:1.0.0&quot;}" description="" documentationContent="" groupId="" homeMashup="" lastModifiedDate="2025-06-10T16:03:47.679Z" minPlatformVersion="" name="SSA.CTDemo.Application" packageVersion="1.0.0" projectName="SSA.CTDemo.Application" publishResult="" state="DRAFT" tags=""><Owner name="ssauvage" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTableDefinitions/><ConfigurationTables/><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="header : name : updated&#10;" timestamp="2025-06-04T13:12:00.831Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="header : dependsOn : updated&#10;" timestamp="2025-06-10T16:03:47.679Z" user="ssauvage"/></ConfigurationChanges></Project></Projects><Users/><DirectoryServices/><Widgets/><MediaEntities/><Groups/><PersistenceProviders/><ModelTags/><LocalizationTables/><Dashboards/><StyleThemes/><DataShapes><DataShape baseDataShape="" description="" documentationContent="" homeMashup="" lastModifiedDate="2025-06-05T13:50:06.271Z" name="SSA.CTDemo.App.SampleHistoricalChartValuesData" projectName="SSA.CTDemo.Application" tags=""><Owner name="ssauvage" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTableDefinitions/><ConfigurationTables/><FieldDefinitions><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="NUMBER" description="" name="t_01" ordinal="4"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="NUMBER" description="" name="t_02" ordinal="5"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="NUMBER" description="" name="t_03" ordinal="6"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="NUMBER" description="" name="t_04" ordinal="7"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="NUMBER" description="" name="t_05" ordinal="8"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="NUMBER" description="" name="t_06" ordinal="9"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="NUMBER" description="" name="t_07" ordinal="10"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="NUMBER" description="" name="t_08" ordinal="11"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="NUMBER" description="" name="t_09" ordinal="12"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="NUMBER" description="" name="t_10" ordinal="13"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="NUMBER" description="" name="t_11" ordinal="14"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="NUMBER" description="" name="t_12" ordinal="15"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="NUMBER" description="" name="t_13" ordinal="16"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="NUMBER" description="" name="t_14" ordinal="17"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="NUMBER" description="" name="t_15" ordinal="18"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="NUMBER" description="" name="t_16" ordinal="19"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="NUMBER" description="" name="t_17" ordinal="20"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="NUMBER" description="" name="t_18" ordinal="21"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="NUMBER" description="" name="t_19" ordinal="22"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="NUMBER" description="" name="t_20" ordinal="23"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="NUMBER" description="" name="t_21" ordinal="24"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="NUMBER" description="" name="t_22" ordinal="25"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="NUMBER" description="" name="t_23" ordinal="26"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="NUMBER" description="" name="t_24" ordinal="27"/><FieldDefinition baseType="DATETIME" description="timestamp" name="timestamp" ordinal="1"/></FieldDefinitions><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="header : name : updated&#10;" timestamp="2025-06-05T13:43:26.532Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="fields : name : deleted, int_1 : updated, tv_1 : added, int_1 : deleted, t_01 : added, tv_1 : deleted, t_02 : added, t_03 : added, t_04 : added, t_05 : added, t_06 : added, t_07 : added, t_08 : added, t_09 : added, t_10 : added, t_11 : added, t_12 : added, t_13 : added, t_14 : added, t_15 : added, t_16 : added, t_17 : added, t_18 : added, t_19 : added, t_20 : added, t_21 : added, t_22 : added, t_23 : added, t_24 : added&#10;" timestamp="2025-06-05T13:49:53.417Z" user="ssauvage"/></ConfigurationChanges></DataShape><DataShape baseDataShape="" description="" documentationContent="" homeMashup="" lastModifiedDate="2025-06-10T10:37:04.606Z" name="SSA.CTDemo.App.SampleHistoricalChartData" projectName="SSA.CTDemo.Application" tags=""><Owner name="ssauvage" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTableDefinitions/><ConfigurationTables/><FieldDefinitions><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="STRING" description="" name="label_01" ordinal="3"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="STRING" description="" name="label_02" ordinal="4"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="STRING" description="" name="label_03" ordinal="5"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="STRING" description="" name="label_04" ordinal="6"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="STRING" description="" name="label_05" ordinal="7"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="STRING" description="" name="label_06" ordinal="8"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="STRING" description="" name="label_07" ordinal="9"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="STRING" description="" name="label_08" ordinal="10"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="STRING" description="" name="label_09" ordinal="11"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="STRING" description="" name="label_10" ordinal="12"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="STRING" description="" name="label_11" ordinal="13"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="STRING" description="" name="label_12" ordinal="14"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="STRING" description="" name="label_13" ordinal="15"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="STRING" description="" name="label_14" ordinal="16"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="STRING" description="" name="label_15" ordinal="17"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="STRING" description="" name="label_16" ordinal="18"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="STRING" description="" name="label_17" ordinal="19"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="STRING" description="" name="label_18" ordinal="20"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="STRING" description="" name="label_19" ordinal="21"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="STRING" description="" name="label_20" ordinal="22"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="STRING" description="" name="label_21" ordinal="23"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="STRING" description="" name="label_22" ordinal="24"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="STRING" description="" name="label_23" ordinal="25"/><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="STRING" description="" name="label_24" ordinal="26"/><FieldDefinition aspect.dataShape="SSA.CTDemo.App.SampleHistoricalChartValuesData" aspect.isPrimaryKey="false" baseType="INFOTABLE" description="" name="values" ordinal="2"/></FieldDefinitions><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="header : name : updated&#10;" timestamp="2025-06-05T13:51:00.995Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="fields : values : added&#10;" timestamp="2025-06-05T13:51:39.771Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="fields : timestamp : deleted&#10;" timestamp="2025-06-05T13:52:11.832Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="fields : label_99 : added&#10;" timestamp="2025-06-05T13:52:47.191Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2025-06-05T13:55:35.304Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="fields : label_99 : deleted&#10;" timestamp="2025-06-05T13:55:51.315Z" user="ssauvage"/></ConfigurationChanges></DataShape><DataShape baseDataShape="" description="" documentationContent="" homeMashup="" lastModifiedDate="2025-06-10T09:34:48.580Z" name="SSA.CTDemo.App.SampleHistoricalChartDataCache_DS" projectName="SSA.CTDemo.Application" tags=""><Owner name="ssauvage" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTableDefinitions/><ConfigurationTables/><FieldDefinitions><FieldDefinition aspect.isPrimaryKey="true" aspect.maximumValue="100" aspect.minimumValue="1" baseType="INTEGER" description="" name="nbOfDaysToRequest" ordinal="2"/><FieldDefinition aspect.dataShape="SSA.CTDemo.App.SampleHistoricalChartData" aspect.isPrimaryKey="false" baseType="INFOTABLE" description="" name="SampleHistoricalChartData" ordinal="3"/><FieldDefinition aspect.isPrimaryKey="true" baseType="THINGTEMPLATENAME" description="" name="sampleThingTemplate" ordinal="1"/></FieldDefinitions><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="header : name : updated&#10;" timestamp="2025-06-10T09:34:48.580Z" user="ssauvage"/></ConfigurationChanges></DataShape><DataShape baseDataShape="" description="" documentationContent="" homeMashup="" lastModifiedDate="2025-06-04T17:07:48.465Z" name="SSA.CTDemo.App.SampleIntHistoricalData" projectName="SSA.CTDemo.Application" tags=""><Owner name="ssauvage" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTableDefinitions/><ConfigurationTables/><FieldDefinitions><FieldDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="true" baseType="NUMBER" description="" name="int_1" ordinal="0"/><FieldDefinition baseType="THINGNAME" description="name" name="name" ordinal="0"/><FieldDefinition baseType="DATETIME" description="timestamp" name="timestamp" ordinal="0"/></FieldDefinitions><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="header : name : updated&#10;" timestamp="2025-06-04T17:07:40.183Z" user="ssauvage"/></ConfigurationChanges></DataShape></DataShapes><Things><Thing description="" documentationContent="" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" inheritedValueStream="" lastModifiedDate="2025-06-04T15:35:09.203Z" name="SSA.CTDemo.App.Manager" projectName="SSA.CTDemo.Application" published="false" tags="" thingTemplate="SSA.CTDemo.App.Manager_TT" valueStream=""><Owner name="ssauvage" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTableDefinitions/><ConfigurationTables/><ThingShape><PropertyDefinitions/><ServiceDefinitions/><EventDefinitions/><ServiceMappings/><ServiceImplementations/><Subscriptions/></ThingShape><PropertyBindings/><RemotePropertyBindings/><RemoteServiceBindings/><RemoteEventBindings/><AlertConfigurations/><ImplementedShapes/><ThingProperties/><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="header : name : updated&#10;" timestamp="2025-06-04T15:35:09.203Z" user="ssauvage"/></ConfigurationChanges></Thing><Thing description="" documentationContent="" effectiveThingPackage="CacheThingPackage" enabled="true" homeMashup="" identifier="" inheritedValueStream="" lastModifiedDate="2025-06-12T17:00:21.967Z" name="SSA.CTDemo.App.SampleHistoricalChartDataCache" projectName="SSA.CTDemo.Application" published="false" tags="" thingTemplate="SSA.CTDemo.App.SampleHistoricalChartDataCache_TT" valueStream=""><Owner name="ssauvage" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTableDefinitions/><ConfigurationTables><ConfigurationTable dataShapeName="" description="Settings for the Cache" isMultiRow="false" name="Settings" ordinal="0"><DataShape><FieldDefinitions><FieldDefinition aspect.friendlyName="Data Shape" baseType="DATASHAPENAME" description="The Cache's Data Shape. Must contain a PrimaryKey. Modifying this will Purge the Cache!" name="dataShape" ordinal="0"/><FieldDefinition aspect.defaultValue="ETERNAL" aspect.friendlyName="Cache Entry Expiration Policy" aspect.selectOptions="ETERNAL:ETERNAL|ACCESSED:ACCESSED|CREATED:CREATED|MODIFIED:MODIFIED|TOUCHED:TOUCHED" baseType="STRING" description="Cache Entry Expiration Policy as defined by JSR107. Modifying this will Purge the Cache!" name="ExpirationPolicy" ordinal="1"/><FieldDefinition aspect.defaultValue="86400" aspect.friendlyName="Cache Entry Expiration Time (Seconds)" baseType="LONG" description="Expiration Time for ExpirationPolicy in Seconds. Modifying this will Purge the Cache!" name="ExpirationTime" ordinal="2"/><FieldDefinition aspect.defaultValue="false" aspect.friendlyName="Cache Performs Loading of Missing Entries" baseType="BOOLEAN" description="Should lookups call the loading service (LoadEntry) when a key is not in the cache?" name="IsLoading" ordinal="4"/><FieldDefinition aspect.defaultValue="1.0" aspect.friendlyName="Cache Maximum Size (MB)" aspect.minimumValue="0.0" baseType="NUMBER" description="Cache Maximum Size before LRU Eviction (in megabytes)Modifying this will Purge the Cache!" name="MaximumSize" ordinal="3"/></FieldDefinitions></DataShape><Rows><Row><ExpirationPolicy><![CDATA[TOUCHED]]></ExpirationPolicy><ExpirationTime>300</ExpirationTime><IsLoading>false</IsLoading><MaximumSize>1.0</MaximumSize><dataShape><![CDATA[SSA.CTDemo.App.SampleHistoricalChartDataCache_DS]]></dataShape></Row></Rows></ConfigurationTable></ConfigurationTables><ThingShape><PropertyDefinitions/><ServiceDefinitions/><EventDefinitions/><ServiceMappings/><ServiceImplementations/><Subscriptions/></ThingShape><PropertyBindings/><RemotePropertyBindings/><RemoteServiceBindings/><RemoteEventBindings/><AlertConfigurations/><ImplementedShapes/><ThingProperties/><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="header : name : updated&#10;" timestamp="2025-06-10T09:14:28.985Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="configuration : dataShape : updated&#10;" timestamp="2025-06-10T09:35:25.426Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="configuration : MaximumSize : updated&#10;" timestamp="2025-06-10T09:57:11.570Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="configuration : MaximumSize : updated&#10;" timestamp="2025-06-10T10:07:03.187Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="configuration : MaximumSize : updated&#10;" timestamp="2025-06-10T10:07:07.964Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="header : enabled : updated&#10;" timestamp="2025-06-10T10:07:18.538Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="header : enabled : updated&#10;" timestamp="2025-06-10T10:07:22.339Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="configuration : MaximumSize : updated&#10;" timestamp="2025-06-12T17:00:21.963Z" user="ssauvage"/></ConfigurationChanges></Thing></Things><Logs/><Authenticators/><QueueProviderPackages/><ThingPackages/><NotificationDefinitions/><ApplicationKeys/><StateDefinitions/><ThingTemplates><ThingTemplate baseThingTemplate="CacheThing" description="" documentationContent="" effectiveThingPackage="CacheThingPackage" homeMashup="" inheritedValueStream="" lastModifiedDate="2025-06-10T09:57:21.983Z" name="SSA.CTDemo.App.SampleHistoricalChartDataCache_TT" projectName="SSA.CTDemo.Application" tags="" thingPackage="" valueStream=""><Owner name="ssauvage" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTableDefinitions/><ConfigurationTables><ConfigurationTable dataShapeName="" description="Settings for the Cache" isMultiRow="false" name="Settings" ordinal="0"><DataShape><FieldDefinitions><FieldDefinition aspect.friendlyName="Data Shape" baseType="DATASHAPENAME" description="The Cache's Data Shape. Must contain a PrimaryKey. Modifying this will Purge the Cache!" name="dataShape" ordinal="0"/><FieldDefinition aspect.defaultValue="ETERNAL" aspect.friendlyName="Cache Entry Expiration Policy" aspect.selectOptions="ETERNAL:ETERNAL|ACCESSED:ACCESSED|CREATED:CREATED|MODIFIED:MODIFIED|TOUCHED:TOUCHED" baseType="STRING" description="Cache Entry Expiration Policy as defined by JSR107. Modifying this will Purge the Cache!" name="ExpirationPolicy" ordinal="1"/><FieldDefinition aspect.defaultValue="86400" aspect.friendlyName="Cache Entry Expiration Time (Seconds)" baseType="LONG" description="Expiration Time for ExpirationPolicy in Seconds. Modifying this will Purge the Cache!" name="ExpirationTime" ordinal="2"/><FieldDefinition aspect.defaultValue="false" aspect.friendlyName="Cache Performs Loading of Missing Entries" baseType="BOOLEAN" description="Should lookups call the loading service (LoadEntry) when a key is not in the cache?" name="IsLoading" ordinal="4"/><FieldDefinition aspect.defaultValue="1.0" aspect.friendlyName="Cache Maximum Size (MB)" aspect.minimumValue="0.0" baseType="NUMBER" description="Cache Maximum Size before LRU Eviction (in megabytes)Modifying this will Purge the Cache!" name="MaximumSize" ordinal="3"/></FieldDefinitions></DataShape><Rows><Row><ExpirationPolicy><![CDATA[TOUCHED]]></ExpirationPolicy><ExpirationTime>300</ExpirationTime><IsLoading>false</IsLoading><MaximumSize>20.0</MaximumSize><dataShape><![CDATA[SSA.CTDemo.App.SampleHistoricalChartDataCache_DS]]></dataShape></Row></Rows></ConfigurationTable></ConfigurationTables><PropertyBindings/><RemotePropertyBindings/><RemoteServiceBindings/><RemoteEventBindings/><AlertConfigurations/><ThingShape><PropertyDefinitions/><ServiceDefinitions/><EventDefinitions/><ServiceMappings/><ServiceImplementations/><Subscriptions/></ThingShape><ImplementedShapes/><SharedConfigurationTables/><InstanceDesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></InstanceDesignTimePermissions><InstanceRunTimePermissions/><InstanceVisibilityPermissions><Visibility/></InstanceVisibilityPermissions><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="header : name : updated&#10;" timestamp="2025-06-10T09:09:32.981Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="configuration : dataShape : updated&#10;" timestamp="2025-06-10T09:14:11.570Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="configuration : dataShape : updated&#10;" timestamp="2025-06-10T09:35:10.102Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="configuration : MaximumSize : updated&#10;" timestamp="2025-06-10T09:56:35.094Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="configuration : MaximumSize : updated&#10;" timestamp="2025-06-10T09:57:21.982Z" user="ssauvage"/></ConfigurationChanges></ThingTemplate><ThingTemplate baseThingTemplate="GenericThing" description="" documentationContent="" effectiveThingPackage="ConfiguredThing" homeMashup="" inheritedValueStream="" lastModifiedDate="2025-06-12T16:45:17.346Z" name="SSA.CTDemo.App.Manager_TT" projectName="SSA.CTDemo.Application" tags="" thingPackage="ConfiguredThing" valueStream=""><Owner name="ssauvage" type="User"/><avatar/><DesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></DesignTimePermissions><RunTimePermissions/><VisibilityPermissions><Visibility/></VisibilityPermissions><ConfigurationTableDefinitions/><ConfigurationTables/><PropertyBindings/><RemotePropertyBindings/><RemoteServiceBindings/><RemoteEventBindings/><AlertConfigurations/><ThingShape><PropertyDefinitions/><ServiceDefinitions><ServiceDefinition aspect.isAsync="false" category="CTDemo.App" description="" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="GetConfiguredManagerForCore"><ResultType baseType="STRING" description="" name="result" ordinal="0"/><ParameterDefinitions/></ServiceDefinition><ServiceDefinition aspect.isAsync="false" category="CTDemo.App" description="" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="GetHistoricalSampleRawData"><ResultType aspect.dataShape="SSA.CTDemo.App.SampleIntHistoricalData" baseType="INFOTABLE" description="" name="result" ordinal="0"/><ParameterDefinitions><FieldDefinition aspect.defaultValue="20" aspect.isRequired="true" aspect.maximumValue="100" aspect.minimumValue="1" baseType="INTEGER" description="" name="nbOfDaysToRequest" ordinal="2"/><FieldDefinition aspect.isRequired="true" baseType="THINGTEMPLATENAME" description="" name="sampleThingTemplate" ordinal="1"/></ParameterDefinitions></ServiceDefinition><ServiceDefinition aspect.isAsync="false" category="CTDemo.App" description="" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="GetSampleHistoricalChartData"><ResultType aspect.dataShape="SSA.CTDemo.App.SampleHistoricalChartData" baseType="INFOTABLE" description="" name="result" ordinal="0"/><ParameterDefinitions><FieldDefinition aspect.defaultValue="20" aspect.isRequired="true" aspect.maximumValue="100" aspect.minimumValue="1" baseType="INTEGER" description="" name="nbOfDaysToRequest" ordinal="2"/><FieldDefinition aspect.isRequired="true" baseType="THINGTEMPLATENAME" description="" name="sampleThingTemplate" ordinal="1"/></ParameterDefinitions></ServiceDefinition><ServiceDefinition aspect.isAsync="false" category="CTDemo.App" description="" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="GetSampleHistoricalChartDataWithoutCache"><ResultType aspect.dataShape="SSA.CTDemo.App.SampleHistoricalChartData" baseType="INFOTABLE" description="" name="result" ordinal="0"/><ParameterDefinitions><FieldDefinition aspect.defaultValue="20" aspect.isRequired="true" aspect.maximumValue="100" aspect.minimumValue="1" baseType="INTEGER" description="" name="nbOfDaysToRequest" ordinal="2"/><FieldDefinition aspect.isRequired="true" baseType="THINGTEMPLATENAME" description="" name="sampleThingTemplate" ordinal="1"/></ParameterDefinitions></ServiceDefinition><ServiceDefinition aspect.isAsync="false" category="CTDemo.App" description="" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="GetSampleThingTemplates"><ResultType aspect.dataShape="EntityList" baseType="INFOTABLE" description="" name="result" ordinal="0"/><ParameterDefinitions/></ServiceDefinition></ServiceDefinitions><EventDefinitions/><ServiceMappings/><ServiceImplementations><ServiceImplementation description="" handlerName="Script" name="GetConfiguredManagerForCore"><ConfigurationTables><ConfigurationTable dataShapeName="" description="" isMultiRow="false" name="Script" ordinal="0"><DataShape><FieldDefinitions><FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/></FieldDefinitions></DataShape><Rows><Row><code><![CDATA[// We return the thing name hard-coded here, but if we were using Building Blocks, we would retrieve it through PTC.Base.Manager.
+
+var result = 'SSA.CTDemo.Core.Manager';]]></code></Row></Rows></ConfigurationTable></ConfigurationTables></ServiceImplementation><ServiceImplementation description="" handlerName="Script" name="GetHistoricalSampleRawData"><ConfigurationTables><ConfigurationTable dataShapeName="" description="" isMultiRow="false" name="Script" ordinal="0"><DataShape><FieldDefinitions><FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/></FieldDefinitions></DataShape><Rows><Row><code><![CDATA[// GetHistoricalSampleRawData
+
+const CORE_MANAGER = me.GetConfiguredManagerForCore();//"SSA.CTDemo.Core.Manager"
+
+var result;
+
+try{
+    result = Things[CORE_MANAGER].GetThingsHistoricalDataForSampleTemplate({
+        sampleThingTemplate: sampleThingTemplate /* THINGTEMPLATENAME [Required] {"defaultValue":"sample1_TT"} */,
+        nbOfDaysToRequest: nbOfDaysToRequest /* INTEGER [Required] {"minimumValue":1,"maximumValue":100,"defaultValue":20} */
+    });// result: INFOTABLE dataShape: "" (not specified)
+} catch(err){
+	logger.error("{} - {}:{} - {}", me.name, err.fileName, err.lineNumber, err);
+    throw err;
+}]]></code></Row></Rows></ConfigurationTable></ConfigurationTables></ServiceImplementation><ServiceImplementation description="" handlerName="Script" name="GetSampleHistoricalChartData"><ConfigurationTables><ConfigurationTable dataShapeName="" description="" isMultiRow="false" name="Script" ordinal="0"><DataShape><FieldDefinitions><FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/></FieldDefinitions></DataShape><Rows><Row><code><![CDATA[// .....
+
+const SAMPLE_HISTORICAL_CHART_DATA_CACHE_THING = 'SSA.CTDemo.App.SampleHistoricalChartDataCache';
+
+var result;
+
+const getCacheEntryInfoTable = function() {
+    return Resources["InfoTableFunctions"].CreateInfoTableFromDataShape({
+                infoTableName: "InfoTable",
+                dataShapeName: "SSA.CTDemo.App.SampleHistoricalChartDataCache_DS"
+    });
+    //TODO: replace this by calling GetDataShape on cache thing
+};
+
+try{
+    
+    let cacheEntryInputIT = getCacheEntryInfoTable();
+    cacheEntryInputIT.AddRow({"sampleThingTemplate": sampleThingTemplate, "nbOfDaysToRequest": nbOfDaysToRequest});// SSA.CTDemo.App.SampleHistoricalChartDataCache_DS entry object, without SampleHistoricalChartData
+	
+    let cacheEntryResultIT = Things[SAMPLE_HISTORICAL_CHART_DATA_CACHE_THING].GetEntry({
+        values: cacheEntryInputIT /* INFOTABLE */
+    });// result: INFOTABLE dataShape: ""
+    
+    if (cacheEntryResultIT.getRowCount() === 0) {
+        // Cache didn't have results, so go to backing DataTable, by calling the GetSampleHistoricalChartDataWithoutCache Service
+        logger.info("no cache entry for {} thing template and {} number of days; using backend query", sampleThingTemplate, nbOfDaysToRequest);
+        
+        result = me.GetSampleHistoricalChartDataWithoutCache({
+            sampleThingTemplate: sampleThingTemplate /* THINGTEMPLATENAME [Required] */,
+            nbOfDaysToRequest: nbOfDaysToRequest /* INTEGER [Required] {"minimumValue":1,"maximumValue":100,"defaultValue":20} */
+        });// result: INFOTABLE dataShape: "SSA.CTDemo.App.SampleHistoricalChartData"
+        
+        if (!result) {
+            throw new Error("GetSampleHistoricalChartDataWithoutCache did not return results");
+        }
+        
+        let newCacheEntryIT = getCacheEntryInfoTable();
+        newCacheEntryIT.AddRow({"sampleThingTemplate": sampleThingTemplate, "nbOfDaysToRequest": nbOfDaysToRequest, "SampleHistoricalChartData": result});// SSA.CTDemo.App.SampleHistoricalChartDataCache_DS entry object
+        Things[SAMPLE_HISTORICAL_CHART_DATA_CACHE_THING].PutEntry({
+            values: newCacheEntryIT /* INFOTABLE [Required] */
+        });
+        // result is already set
+    } else {
+        let rowCacheResult = cacheEntryResultIT.getRow(0);
+        result = rowCacheResult.SampleHistoricalChartData;
+    }
+} catch(err){
+	logger.error("{} - {}:{} - {}", me.name, err.fileName, err.lineNumber, err);
+    throw err;
+}
+]]></code></Row></Rows></ConfigurationTable></ConfigurationTables></ServiceImplementation><ServiceImplementation description="" handlerName="Script" name="GetSampleHistoricalChartDataWithoutCache"><ConfigurationTables><ConfigurationTable dataShapeName="" description="" isMultiRow="false" name="Script" ordinal="0"><DataShape><FieldDefinitions><FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/></FieldDefinitions></DataShape><Rows><Row><code><![CDATA[// .....
+
+const CORE_MANAGER = me.GetConfiguredManagerForCore();//"SSA.CTDemo.Core.Manager"
+
+var result;
+var MAX_NUMBER_OF_SERIES = 24;
+
+const formatNumberOn2Digits = function (inputNumber) {
+//    let formattedNumber = inputNumber.toLocaleString('en-US', {
+//    	minimumIntegerDigits: 2,
+//    	useGrouping: false
+//  	});
+	let dec = inputNumber - Math.floor(inputNumber);
+	inputNumber = inputNumber - dec;
+	let formattedNumber = ("0" + inputNumber).slice(-2) + dec.toString().substr(1);
+    return formattedNumber;
+};
+
+try{
+    // Initialize Chart Data infotable
+    result = Resources["InfoTableFunctions"].CreateInfoTableFromDataShape({
+        infoTableName: "InfoTable",
+        dataShapeName: "SSA.CTDemo.App.SampleHistoricalChartData"
+    });// CreateInfoTableFromDataShape(infoTableName:STRING("InfoTable"), dataShapeName:STRING):INFOTABLE(SSA.CTDemo.App.SampleHistoricalChartData)
+
+    // Initialize Chart Values Data infotable
+    let computedChartValuesIT = Resources["InfoTableFunctions"].CreateInfoTableFromDataShape({
+        infoTableName: "InfoTable",
+        dataShapeName: "SSA.CTDemo.App.SampleHistoricalChartValuesData"
+    });// CreateInfoTableFromDataShape(infoTableName:STRING("InfoTable"), dataShapeName:STRING):INFOTABLE(SSA.CTDemo.App.SampleHistoricalChartValuesData)
+
+    // Get raw historical data for a maximum of 24 things with given sample thing template
+    let rawDataIT = Things[CORE_MANAGER].GetThingsHistoricalDataForSampleTemplate({
+        sampleThingTemplate: sampleThingTemplate /* THINGTEMPLATENAME [Required] {"defaultValue":"sample1_TT"} */,
+        nbOfDaysToRequest: nbOfDaysToRequest /* INTEGER [Required] {"minimumValue":1,"maximumValue":100,"defaultValue":20} */
+    });// rawDataIT: INFOTABLE dataShape: "" (not specified)
+
+    // Build an array of the thing names, making sure its size does not exceed 24 entries
+    let distinctThingNamesIT = Resources["InfoTableFunctions"].Distinct({
+        t: rawDataIT /* INFOTABLE */,
+        columns: 'name' /* STRING */
+    });// distinctThingNamesIT: INFOTABLE
+    let distinctThingsCount = distinctThingNamesIT.getRowCount();
+    let distinctThingNamesTruncatedArray = [];
+    distinctThingNamesIT.rows.toArray().forEach(row => {
+        distinctThingNamesTruncatedArray.push(row.name);
+    });
+    if (distinctThingsCount < MAX_NUMBER_OF_SERIES) {
+        MAX_NUMBER_OF_SERIES = distinctThingsCount;
+    }
+    distinctThingNamesTruncatedArray = distinctThingNamesTruncatedArray.slice(0, MAX_NUMBER_OF_SERIES);
+    
+    // Main data processing to pivot the raw data infotable, having thing names converted into columns
+    computedChartValuesIT = Resources["InfoTableFunctions"].Pivot({
+        t: rawDataIT /* INFOTABLE */,
+        nameColumn: "name" /* STRING */,
+        valueColumn: "int_1" /* STRING */,
+        timestampColumn: 'timestamp' /* STRING */
+    });// computedChartValuesIT: INFOTABLE
+
+    // Get the pivoted dable fields, and remove columns which are not in the computed truncated array
+    let dataShapeFields = computedChartValuesIT.dataShape.fields;
+    let dataShapeFieldNames = Object.keys(dataShapeFields);
+    dataShapeFieldNames.forEach(fieldName => {
+        if ((fieldName !== 'timestamp') && (distinctThingNamesTruncatedArray.includes(fieldName) === false)) {
+            computedChartValuesIT.RemoveField(fieldName);
+        }
+    });
+    
+    // Build the array of (thing) serie fields, excluding the timestamp column
+    dataShapeFields = computedChartValuesIT.dataShape.fields;//.map(field => fiel.name);
+    dataShapeFieldNames = Object.keys(dataShapeFields);
+    let indexOfTS = dataShapeFieldNames.indexOf('timestamp');
+    if (indexOfTS > -1) { // only splice array when item is found
+      dataShapeFieldNames.splice(indexOfTS, 1); // 2nd parameter means remove one item only
+    }
+
+    // Create a SSA.CTDemo.App.SampleHistoricalChartData entry object
+    let newEntry = {};
+    
+    // Browse fields and rename them so they respect the SSA.CTDemo.App.SampleHistoricalChartValuesData data shape
+    // Also, generate corresponding labels with each original thing name
+    let intIndex = 0;
+    dataShapeFieldNames.forEach(fieldName => {
+        intIndex = intIndex + 1;
+        let formattedIndex = formatNumberOn2Digits(intIndex);
+        let serieFieldName = 't_' + formattedIndex;
+        let labelFieldName = 'label_' + formattedIndex;
+        newEntry[labelFieldName] = fieldName;
+
+        computedChartValuesIT = Resources["InfoTableFunctions"].RenameField({
+            t: computedChartValuesIT /* INFOTABLE */,
+            from: fieldName /* STRING */,
+            to: serieFieldName /* STRING */
+        });// computedChartValuesIT: INFOTABLE
+    });
+    
+    // Initialize Chart Values Data infotable with fields ordered from data shape
+    let computedChartValuesWithOrderedFieldsIT = Resources["InfoTableFunctions"].CreateInfoTableFromDataShape({
+        infoTableName: "InfoTable",
+        dataShapeName: "SSA.CTDemo.App.SampleHistoricalChartValuesData"
+    });// CreateInfoTableFromDataShape(infoTableName:STRING("InfoTable"), dataShapeName:STRING):INFOTABLE(SSA.CTDemo.App.SampleHistoricalChartValuesData)
+    computedChartValuesIT.rows.toArray().forEach(row => {
+        computedChartValuesWithOrderedFieldsIT.AddRow(row);
+    });
+
+    // Set the values infotable
+    newEntry.values = computedChartValuesWithOrderedFieldsIT;
+    
+    // pause():INTEGER
+    //let milliseconds = pause(2000);
+    
+    // Add the entry as single row for chart data
+    result.AddRow(newEntry);
+    
+} catch(err){
+	logger.error("{} - {}:{} - {}", me.name, err.fileName, err.lineNumber, err);
+    throw err;
+}
+
+// SSA.CTDemo.App.SampleHistoricalChartData entry object
+//let newEntry = {
+//    values: undefined, // INFOTABLE {"dataShape":"SSA.CTDemo.App.SampleHistoricalChartValuesData"}
+//    label_01: undefined, // STRING
+//    label_02: undefined, // STRING
+//    label_03: undefined, // STRING
+//    label_04: undefined, // STRING
+//    label_05: undefined, // STRING
+//    label_06: undefined, // STRING
+//    label_07: undefined, // STRING
+//    label_08: undefined, // STRING
+//    label_09: undefined, // STRING
+//    label_10: undefined, // STRING
+//    label_11: undefined, // STRING
+//    label_12: undefined, // STRING
+//    label_13: undefined, // STRING
+//    label_14: undefined, // STRING
+//    label_15: undefined, // STRING
+//    label_16: undefined, // STRING
+//    label_17: undefined, // STRING
+//    label_18: undefined, // STRING
+//    label_19: undefined, // STRING
+//    label_20: undefined, // STRING
+//    label_21: undefined, // STRING
+//    label_22: undefined, // STRING
+//    label_23: undefined, // STRING
+//    label_24: undefined // STRING
+//};]]></code></Row></Rows></ConfigurationTable></ConfigurationTables></ServiceImplementation><ServiceImplementation description="" handlerName="Script" name="GetSampleThingTemplates"><ConfigurationTables><ConfigurationTable dataShapeName="" description="" isMultiRow="false" name="Script" ordinal="0"><DataShape><FieldDefinitions><FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/></FieldDefinitions></DataShape><Rows><Row><code><![CDATA[//GetSampleThingTemplates
+
+const CORE_MANAGER = me.GetConfiguredManagerForCore();//"SSA.CTDemo.Core.Manager"
+
+var result;
+
+try{
+	result = Things[CORE_MANAGER].GetSampleThingTemplates();// result: INFOTABLE dataShape: "EntityList" (even if not specified)
+} catch(err){
+	logger.error("{} - {}:{} - {}", me.name, err.fileName, err.lineNumber, err);
+    throw err;
+}]]></code></Row></Rows></ConfigurationTable></ConfigurationTables></ServiceImplementation></ServiceImplementations><Subscriptions/></ThingShape><ImplementedShapes/><SharedConfigurationTables/><InstanceDesignTimePermissions><Create/><Read/><Update/><Delete/><Metadata/></InstanceDesignTimePermissions><InstanceRunTimePermissions/><InstanceVisibilityPermissions><Visibility/></InstanceVisibilityPermissions><ConfigurationChanges><ConfigurationChange changeAction="CREATE" changeReason="header : name : updated&#10;" timestamp="2025-06-04T15:30:25.016Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetConfiguredCoreManager : service added&#10;" timestamp="2025-06-04T15:34:55.565Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetHistoricalSampleDataWithoutCache : service added&#10;" timestamp="2025-06-04T15:37:01.136Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetHistoricalSampleDataWithoutCache : service updated&#10;GetConfiguredManagerForCore : service added&#10;GetConfiguredCoreManager : service deleted&#10;" timestamp="2025-06-04T15:37:41.007Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetHistoricalSampleDataWithoutCache : output updated&#10;" timestamp="2025-06-04T15:39:54.126Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetSampleThingTemplates : service added&#10;" timestamp="2025-06-04T16:15:17.133Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetSampleThingTemplates : output updated&#10;" timestamp="2025-06-04T16:17:02.522Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetHistoricalSampleDataWithoutCache : input parameter sampleThingTemplate added, inputs updated, input parameter nbOfDaysToRequest added, inputs updated&#10;" timestamp="2025-06-04T17:06:31.791Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetHistoricalSampleDataWithoutCache : output updated&#10;" timestamp="2025-06-04T17:08:15.970Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetHistoricalSampleDataWithoutCache : service updated, category updated&#10;GetConfiguredManagerForCore : category updated&#10;GetSampleThingTemplates : category updated&#10;" timestamp="2025-06-04T17:10:19.188Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service added, output updated&#10;" timestamp="2025-06-05T13:33:58.602Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : output updated&#10;" timestamp="2025-06-05T13:35:54.152Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T13:39:52.372Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : output updated&#10;" timestamp="2025-06-05T14:03:34.785Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:04:21.983Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:05:06.840Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:05:27.172Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:05:42.568Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : output updated&#10;" timestamp="2025-06-05T14:06:11.463Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : output updated&#10;" timestamp="2025-06-05T14:08:24.723Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:08:50.259Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:08:58.773Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:09:13.603Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:10:00.032Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : output updated&#10;" timestamp="2025-06-05T14:16:14.379Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:16:55.878Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:17:29.780Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:21:29.539Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : output updated&#10;" timestamp="2025-06-05T14:21:39.656Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:22:12.358Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:22:25.889Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:25:47.030Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:29:37.364Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : output updated&#10;" timestamp="2025-06-05T14:30:03.769Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:30:35.008Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : output updated&#10;" timestamp="2025-06-05T14:31:12.606Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:31:48.034Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:32:03.602Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:32:34.210Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:33:40.451Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:34:58.932Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:37:06.382Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:37:31.453Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:37:51.953Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:38:21.200Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:38:50.185Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : output updated&#10;" timestamp="2025-06-05T14:39:04.207Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:39:12.157Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:41:09.488Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T14:42:24.411Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T15:03:02.377Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : output updated&#10;" timestamp="2025-06-05T15:04:56.299Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T15:10:59.120Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T15:11:33.324Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T15:12:14.829Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : output updated&#10;" timestamp="2025-06-05T15:12:42.426Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T15:16:33.377Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T15:17:05.005Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T15:19:26.551Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T15:19:57.555Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T15:20:48.360Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T15:28:41.440Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T15:29:22.045Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T15:29:42.980Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T15:30:01.777Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T15:34:06.161Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : output updated&#10;" timestamp="2025-06-05T15:34:14.498Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T15:34:33.262Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T15:37:36.594Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T15:38:15.143Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : output updated&#10;" timestamp="2025-06-05T15:38:40.688Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T15:39:39.211Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T15:42:55.537Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T15:43:55.442Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T15:45:07.754Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-05T16:31:46.601Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-06T08:12:17.312Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : output updated&#10;" timestamp="2025-06-06T08:13:09.596Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-06T08:13:44.929Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-06T08:34:43.879Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : ReworkData : service updated&#10;" timestamp="2025-06-06T08:36:23.120Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetSampleHistoricalChartDataWithoutCache : service added&#10;" timestamp="2025-06-06T08:39:04.799Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetSampleHistoricalChartDataWithoutCache : service updated&#10;ReworkData : service deleted&#10;" timestamp="2025-06-06T08:39:28.727Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetSampleHistoricalChartDataWithoutCache : service updated&#10;" timestamp="2025-06-06T08:46:40.730Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetSampleHistoricalChartDataWithoutCache : service updated&#10;" timestamp="2025-06-06T09:07:57.060Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetSampleHistoricalChartDataWithoutCache : service updated&#10;" timestamp="2025-06-06T09:08:09.308Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetSampleHistoricalChartDataWithoutCache : service updated&#10;" timestamp="2025-06-06T09:08:25.910Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetSampleHistoricalChartDataWithoutCache : service updated&#10;" timestamp="2025-06-06T09:09:22.636Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetSampleHistoricalChartDataWithoutCache : service updated&#10;" timestamp="2025-06-06T09:09:40.077Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetSampleHistoricalChartDataWithoutCache : service updated&#10;" timestamp="2025-06-06T09:10:21.765Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetSampleHistoricalChartDataWithoutCache : service updated&#10;" timestamp="2025-06-06T09:10:56.332Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetSampleHistoricalChartDataWithoutCache : service updated&#10;" timestamp="2025-06-06T09:11:31.204Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetSampleHistoricalChartDataWithoutCache : service updated&#10;" timestamp="2025-06-06T09:12:29.077Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetHistoricalSampleRawData : service added&#10;" timestamp="2025-06-10T09:07:50.313Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetHistoricalSampleDataWithoutCache : service deleted&#10;GetSampleHistoricalChartData : service added&#10;" timestamp="2025-06-10T09:28:11.251Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetSampleHistoricalChartData : service updated&#10;" timestamp="2025-06-10T09:34:11.698Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetSampleHistoricalChartData : service updated&#10;" timestamp="2025-06-10T09:42:35.199Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetSampleHistoricalChartData : service updated&#10;" timestamp="2025-06-10T09:44:51.495Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetSampleHistoricalChartData : service updated&#10;" timestamp="2025-06-10T10:00:16.289Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetSampleHistoricalChartData : service updated&#10;" timestamp="2025-06-10T10:00:37.815Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetSampleHistoricalChartData : service updated&#10;" timestamp="2025-06-10T10:10:09.593Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetSampleHistoricalChartData : service updated&#10;" timestamp="2025-06-10T10:17:08.145Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetSampleHistoricalChartDataWithoutCache : service updated&#10;" timestamp="2025-06-10T10:18:32.203Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetSampleHistoricalChartDataWithoutCache : service updated&#10;" timestamp="2025-06-10T10:27:44.653Z" user="ssauvage"/><ConfigurationChange changeAction="MODIFY" changeReason="services : GetSampleHistoricalChartDataWithoutCache : service updated&#10;" timestamp="2025-06-12T16:45:17.344Z" user="ssauvage"/></ConfigurationChanges></ThingTemplate></ThingTemplates><ExtensionPackages/><Organizations/><Menus/><ThingGroups/><Resources/><DataTags/><ThingShapes/><Subsystems/><NotificationContents/></Entities>

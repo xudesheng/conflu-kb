@@ -1,0 +1,3 @@
+id = "cachething"
+title = "Cache Thing guidance"
+summary = "How to use the ThingWorx 10 Cache Thing to speed up application APIs: concepts, cache-aside and read-through patterns, worked examples with sample entities, design guidance, and observability."
