@@ -8,14 +8,19 @@ recipes kept in the private `conflu-digest` repository.
 
 ## Use
 
-Copy a family directory into one of Conflu's KB roots — nothing else:
+Install an approved family into the current workspace by default:
 
 ```bash
-cp -R cachething ~/.conflu/kb/            # global: every repository on this machine
-cp -R cachething <repo>/.conflu/kb/       # workspace: one Conflu repository (wins over global)
+conflu digest install cachething
+conflu digest install cachething --global
 ```
 
-Conflu reads the roots fresh on every `twx.kb.*` call; no restart.
+For private or offline use, a family is still just a directory. Copy it to
+`<repo>/.conflu/kb/` for one workspace or `~/.conflu/kb/` for global use.
+Conflu reads both roots fresh on every `twx.kb.*` call; no restart.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) to propose a topic for official
+installation.
 
 ## Families
 
